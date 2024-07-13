@@ -1,0 +1,189 @@
+# 配置参考网站: https://squidfunk.github.io/mkdocs-material/setup/
+# -------------------- 元数据 metadata --------------------------
+# 文章的元数据按照下面的格式填写
+# ---
+# title:
+# date: 2024-01-01
+# categories: 在设置的预选项中选择
+# slug: 设置post的标题
+# tags: 
+# ---
+# !!!需要注意的一点是文章必须要有一级标题，否则在展示界面
+# !!!显示的是文件名称并且无法点击跳转
+# ---------------------------------------------------------------
+site_name: Kihara's Archives
+site_url: https://kihara-ri.github.io
+site_author: Kihara Ri
+site_description: This is a website for personal archives backups, idea shares and learning process records.
+
+# 本配置大量参考了: https://github.com/Yang-Xijie/yang-xijie.github.io/blob/main/mkdocs.yml
+# [Navigation]
+# index.md 文件会作为导航的介绍页而不被划入下一级内容
+nav:
+  - Home: index.md
+  - About:
+    - about/index.md
+    - projects.md
+    - musings.md
+    - curriculums.md
+  - Blog:
+    - blog/index.md
+  # Archives 项会经常添加文章，因此希望能够自动添加 ./docs/blog/posts 中的文章，减少麻烦和错误
+  - Archives: 
+    - archives/index.md
+    - '中国剩余定理与线性代数': 'Chinese.md'
+    - '在Markdown中插入icons': 'insert icons.md'
+  - Info:
+    - lookups.md
+    - books.md
+    - bangumis.md
+#-----------------------------------------------------------------
+theme:
+  name: material
+  language: zh
+  icon: 
+    repo: fontawesome/brands/github
+  # 主题颜色
+  palette:
+    # 下面的 primary 和 accent 会和 media 相冲突
+    - primary: custom # color of nav bar
+    # - accent: pink # 互动元素，如按钮链接的悬浮变色
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default # 亮暗模式: default||slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  logo: assets/logo.png # 左上角头像
+  favicon: img/favicon.ico
+    # 一些特性
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs # 导航选项卡
+    # - navigation.tabs.sticky # 向下滚动时依然可以看见导航选项卡
+    - navigation.sections
+    - navigation.expand # 默认扩展可折叠的小节
+    - navigation.path # 显示路径
+    - navigation.indexes # 章节索引: 为章节添加概述而不占用文章列表
+    - toc.follow # 锚点跟随
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.footer # 上下页链接
+#-----------------------------------------------------------------
+
+extra_javascript:
+  - javascripts/icon-import.js
+  - javascripts/shortcuts.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+#-----------------------------------------------------------------
+plugins:
+  - blog:
+      # blog_dir: blog # 仅将 /docs/blog/ 中的内容生成blog 
+      blog_toc: true # 利用目录在右边展示帖子标题
+      post_url_format: "{date}/{slug}" # blog文章url格式
+      post_readtime: true
+      post_readtime_words_per_minute: 150
+      archive: true # 启用归档，默认为启用
+      archive_name: Archive # 归档名称，默认在中文下为「归档」
+      categories_name: Categories # 分类名称，默认在中文下为「分类」
+      categories_url_format: "{slug}" # 不额外展示 /category/... 直接使用 /blog/
+      # categories_sort_by: !!python/name:material.plugins.blog.view_post_count
+      # categories_sort_reverse: true
+      # 指定类别，防止拼写错误和随意添加
+      categories_allowed:
+        - Math            # 对于偏向解决单个数学问题和疑惑的，主要为分散化内容
+        - CS              # 跟计算机科学相关性大的内容
+        - Tutorial        # 主要为系统性教程，内容偏长
+        - Language        # 学习语言时遇到的一些问题
+        - Log             # 在各种折腾中对问题和过程的记录，主要为技术性实践
+        - Technology      # 非常容易和前面的内容搞混淆，这里主要记录某些具体的技术
+      categories_toc: true
+      pagination: false
+  - search:
+      lang:
+        - zh
+        - en
+        - ja
+  - tags # 给单篇文章加标签
+  # - rss:
+  #     match_path: blog/posts/.*
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
+#-----------------------------------------------------------------
+
+# [数学公式LaTeX支持]
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - abbr
+  - admonition # 警告标注
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+#-----------------------------------------------------------------
+
+extra:
+  social:
+    - name: GitHub | Kihara-Ri
+      icon: fontawesome/brands/github
+      link: https://github.com/Kihara-Ri
+    - name: Bilibili | キハラ
+      icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/631081975
+
+copyright: Copyright &copy; 2023 - 2024 Kihara Ri

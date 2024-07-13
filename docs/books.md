@@ -1,0 +1,9 @@
+# 我正在看的书
+
+- 《深度学习入门》——斋藤康毅
+- 《控制之美[卷一]》——王天威
+- 《陶哲轩实分析》——陶哲轩
+- 《日本语》——金田一春彦
+- [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+会使用爬虫爬取豆瓣图书信息，实现两端同步，敬请期待！

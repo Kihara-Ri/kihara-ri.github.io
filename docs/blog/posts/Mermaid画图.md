@@ -19,7 +19,7 @@ categories:
 
 如下面一段代码
 
-{% mermaid %}
+```mermaid
 graph LR
 
 	subgraph 旅馆 
@@ -42,7 +42,7 @@ graph LR
 	8 -.-> H
 	9 -.-> I
 	
-{% endmermaid %}
+```
 
 
 
@@ -63,7 +63,7 @@ E-R图 (Entity Relationship Diagram)，实体-联系图，提供了表示实体�
 
 **示例**
 
-{% mermaid %}
+```mermaid
 erDiagram
     CAR ||--o{ NAMED-DRIVER : allows
     CAR {
@@ -77,7 +77,7 @@ erDiagram
         string lastName
         int age
     }
-{% endmermaid %}
+```
 
 ### gantt 甘特图
 
@@ -91,7 +91,7 @@ erDiagram
 | 4    | 任务开始时间 | `YYYY-MM-DD/after 其他代号/缺省`                        |
 | 5    | 任务结束时间 | `YYYY-MM-DD/持续时长/缺省`，h表示小时，d表示天，w表示周 |
 
-{% mermaid %}
+```mermaid
 
 gantt
     dateFormat  YYYY-MM-DD
@@ -123,27 +123,26 @@ gantt
     Describe gantt syntax               :after doc1, 3d
     Add gantt diagram to demo page      :20h
     Add another diagram to demo page    :48h
-{% endmermaid %}
+```
 
 ### 饼图
 
 关键字`pie`
 
-{% mermaid %}
+```mermaid
 pie
     title Key elements in Product X
     "Calcium" : 42.96
     "Potassium" : 50.05
     "Magnesium" : 10.01
     "Iron" :  5
-{% endmermaid %}
+```
 
 ### 时间轴图
 
 关键字`timeline`
 
-{% mermaid %}
-
+```mermaid
 timeline
         title England's History Timeline
         section Stone Age
@@ -154,8 +153,7 @@ timeline
                   : New styles of pottery and ways of burying the dead appear.
           2200 BC : The last major building works are completed at Stonehenge.<br> People now bury their dead in stone circles.
                   : The first metal objects are made in Britain.Some other nice things happen. it is a good time to be alive.
-{% endmermaid %}
-
+```
 
 ### 类图
 
@@ -163,8 +161,7 @@ timeline
 
 使用`mermaid`绘制以说明类图
 
-{% mermaid %}
-
+```mermaid
 classDiagram
 %% 结构体声明
 	class Season {
@@ -178,7 +175,7 @@ classDiagram
 	
 	}
 
-{% endmermaid %}
+```
 
 #### 元素
 
@@ -215,18 +212,18 @@ classDiagram
 
 类继承另一个类或接口继承另一个接口
 
-{% mermaid %}
+```mermaid
 classDiagram
 direction LR
 Parent <|-- Child
-{% endmermaid %}
+```
 
 
 **实现**
 
 类实现接口
 
-{% mermaid %}
+```mermaid
 classDiagram
 direction LR
 class Parent {
@@ -234,13 +231,13 @@ class Parent {
 }
 Child ..|> Parent
 
-{% endmermaid %}
+```
 
 **关联**
 
 表示一种`拥有`的关系，A类作为B类的成员变量，若B类也使用了A类作为成员变量则为双向关联
 
-{% mermaid %}
+```mermaid
 classDiagram
 direction LR
 class Car {
@@ -251,13 +248,13 @@ class Driver {
 +drive() void
 }
 Driver --> Car
-{% endmermaid %}
+```
 
 **依赖**
 
 表示一种`使用`的关系，参数依赖、局部变量、静态方法/变量依赖
 
-{% mermaid %}
+```mermaid
 classDiagram
 direction LR
 class Car {
@@ -267,13 +264,13 @@ class Driver {
 +drive(car:Car) void
 }
 Driver ..> Car
-{% endmermaid %}
+```
 
 **聚合**
 
 是一种强关联关系，在代码语法上与关联无法区分
 
-{% mermaid %}
+```mermaid
 classDiagram
 direction LR
 class Car {
@@ -284,21 +281,21 @@ class Driver {
 +drive() void
 }
 Driver "1" o-- "1" Car
-{% endmermaid %}
+```
 
 **组合**
 
 也是一种强关联关系，比聚合关系还要强
 
-{% mermaid %}
+```mermaid
 classDiagram
 direction LR
 Company "1" *-- "N" Dept
-{% endmermaid %}
+```
 
 **综合图**
 
-{% mermaid %}
+```mermaid
 classDiagram
 direction BT
 %% 代谢基础水和氧气
@@ -354,7 +351,7 @@ class BirdCluster {
 }
 
 BirdCluster "1" *-- "n" Bird
-{% endmermaid %}
+```
 
 
 

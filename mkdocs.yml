@@ -31,8 +31,8 @@ nav:
   # Archives 项会经常添加文章，因此希望能够自动添加 ./docs/blog/posts 中的文章，减少麻烦和错误
   - Archives: 
     - archives/index.md
-    - '中国剩余定理与线性代数': 'Chinese.md'
-    - '在Markdown中插入icons': 'insert icons.md'
+    - '中国剩余定理与线性代数': 'archives/Chinese.md'
+    - '在Markdown中插入icons': 'archives/insert icons.md'
   - Info:
     - lookups.md
     - books.md

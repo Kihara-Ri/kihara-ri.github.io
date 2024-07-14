@@ -85,7 +85,7 @@ $ tree
 ---
 自动化流程：
 
-{% mermaid %}
+```mermaid
 graph LR
 prompt(prompt)
 para((bvid, p_num))
@@ -107,14 +107,14 @@ judge2 --> |No| check
 read --> requests
 requests --> upload
 upload --> import
-{% endmermaid %}
+```
 
 ---
 
 
 b站API的请求原理图：
 
-{% mermaid %}
+```mermaid
 graph TD
 
 get{requests}
@@ -140,7 +140,7 @@ bid(bvid) -.-> json_api
 cid --> json_api
 json_api --> subtitle_url
 subtitle_url --> subtitle_json
-{% endmermaid %}
+```
 
 ---
 

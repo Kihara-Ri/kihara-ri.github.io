@@ -8,8 +8,6 @@ categories:
   - Tutorial
 ---
 
-{% series %}
-
 <div style="text-align: center">
 <img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" style="display: inline-block; vertical-align= middle;">
 <img src="https://mdstore.oss-cn-beijing.aliyuncs.com/markdown/rust_crab_logo.png" style="zoom: 12%; display: inline-block; vertical-align= middle;"/>

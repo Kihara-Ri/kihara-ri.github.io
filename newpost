@@ -1,0 +1,47 @@
+#!/usr/bin/python3
+'''
+This is a python script for appending post front-matter or metadata so that I won't spend more time on copy and paste this.
+'''
+
+import argparse
+import os 
+from datetime import datetime
+
+def create_post(title, posts_dir):
+    date_now = datetime.now().strftime('%Y-%m-%d')
+    post_path = os.path.join(posts_dir, f"{title}.md" )
+
+    # 填充内容
+    content = f"""---
+title: {title}
+date: '{date_now}'
+tags:
+  - 
+categories:
+  - Logs
+---
+
+# {title}
+
+在这里写下描述...
+
+<!-- more -->
+
+"""
+
+    with open(post_path, 'w') as file:
+        file.write(content)
+    print(f"Post 已创建: \n {post_path}")
+
+def main():
+    target_dir = '/docs/blog/posts/'
+    posts_dir = os.getcwd() + target_dir
+
+    parser = argparse.ArgumentParser(description='创建新的 post.')
+    parser.add_argument('title', type=str, help = 'Post 的标题')
+    parser.add_argument('--path', type=str, default = posts_dir)
+    args = parser.parse_args()
+    create_post(args.title, args.path)
+
+if __name__ == "__main__":
+    main()

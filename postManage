@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+
+"""
+这是一个用来管理posts的脚本，你将用它来:
+1. 每次运行，更新 ./docs/blog/posts/ 目录下的 Markdown 文本数量和总文字数，输出到 blog 的 index.md 中的特定一行
+2. 检查新增、修改的文本，附加时间等信息并保存在log文件中供快速查询
+3. 快速返回最近新增、修改过的文本目录，以供快速访问
+"""
+
+import os
+import time
+import datetime
+from pathlib import Path
+
+# 设置目录和文件路径
+posts_dir = Path("./docs/blog/posts")
+index_file = Path("./docs/blog/index.md")
+log_file = Path("./posts_log.txt")
+
+
+

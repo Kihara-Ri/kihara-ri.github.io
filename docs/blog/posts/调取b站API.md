@@ -11,6 +11,12 @@ categories:
   - Log
 ---
 
+# 调取b站API
+
+个人GitHub项目，将bilibili视频信息和字幕提取出来，自动化连接到Notion中
+
+<!-- more -->
+
 <div align="center">
   <img src="/images/bili_notion.png" alt="img" title=" alt=&quot;background copy&quot; style=&quot;" style="zoom: 50%;" width="50%" height="50%"/> 
 </div>

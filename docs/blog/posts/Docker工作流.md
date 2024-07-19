@@ -9,19 +9,13 @@ categories:
 ---
 # Docker 工作流
 
+简单认识docker，分清镜像和docker容器的区别，简单操作docker程序运行
+
+<!-- more -->
+
 ## 工作流
 
-**定制镜像文件 Dockerfile**
-
-–> docker build
-
-**镜像 Image**
-
-–> docker run
-
-**容器 Container**
-
-
+**定制镜像文件 Dockerfile** –> docker build -> **镜像 Image** –> docker run -> **容器 Container**
 
 使用`docker push`将制作好的镜像推送到 Docker Hub
 

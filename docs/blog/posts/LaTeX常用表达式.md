@@ -12,6 +12,8 @@ categories:
 
 记录了常用的$\LaTeX$数学式表达，必然有收录不完整的地方
 
+<!-- more -->
+
 ## 希腊字母
 
 |    Name    |  Display   | Capital Case |  Display   |   Var Case    |    Display    |

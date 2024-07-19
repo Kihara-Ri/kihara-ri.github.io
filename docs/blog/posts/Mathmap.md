@@ -16,6 +16,8 @@ categories:
 
 If you want to build a math world, what would you start with ?
 
+<!-- more -->
+
 The first three most important things I think must be :
 
 1. Natural number, and we’re going to start to re-understand it with Peano axioms

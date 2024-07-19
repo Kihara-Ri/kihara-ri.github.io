@@ -1,5 +1,5 @@
 ---
-title: Ubuntu使用ssh密钥登录服务器.md
+title: Ubuntu使用ssh密钥登录服务器
 date: 2024-03-10
 tags: 
   - ssh
@@ -7,6 +7,12 @@ tags:
 categories: 
   - Log
 ---
+
+# Ubuntu 使用ssh密钥登录服务器
+
+介绍如何快速在Linux系统上生成密钥，并且使用其与GitHub进行通信
+
+<!-- more -->
 
 ## 流程
 

@@ -8,7 +8,11 @@ categories:
   - Log
 ---
 
+# 在服务器上跑Jupyter
+
 想用Jupyter notebook写一些实验性的python代码，但是每次都写在本地，还要额外开一个服务，而且还只能给自己看，也没法放到blog中，总感觉有些鸡肋，因此借此机会，尝试在云服务器中运行Jupyter notebook，这样就很方便可以运行python代码了
+
+<!-- more -->
 
 ## **配置文件**
 

@@ -11,9 +11,11 @@ categories:
 
 # OpenWrt折腾日志
 
+买了一个R2S刷OpenWrt作软路由，简要记录一下折腾过程
+
+<!-- more -->
+
 ## 树莓派单网口旁路由
-
-
 
 ## R2S软路由
 

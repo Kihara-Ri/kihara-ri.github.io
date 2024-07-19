@@ -17,6 +17,7 @@ Markdown的语法非常丰富，虽然表面上Markdown能做的事很少，但�
 1. 使用数学公式参见`LaTe常用表达式`
 2. 使用`Mermaid`画图参见`Mermaid语法`
 
+<!-- more -->
 
 ## 快捷键
 

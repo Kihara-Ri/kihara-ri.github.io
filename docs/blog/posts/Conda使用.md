@@ -10,9 +10,11 @@ categories:
 
 # conda使用
 
+包含的内容：如何安装miniconda3
 
+<!-- more -->
 
-安装
+## 安装
 
 ```bash
 mkdir -p ~/miniconda3

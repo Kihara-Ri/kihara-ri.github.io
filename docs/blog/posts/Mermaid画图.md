@@ -13,6 +13,8 @@ categories:
 
 随着 html 和 JavaScript 的深入学习，越发觉得 Mermaid 的功能强大，网络上关于 Mermaid 画图的教程往往都是新手向的，点到即止，信息密度极低且内容分散，故在此记录平时遇见的Mermaid 语法，积少成多，最后形成一个完整的知识体系，本文中关于平时遇到的问题与查阅到的解决方案都会列在参考链接中，以供快速查看原文
 
+<!-- more -->
+
 ## subgraph的左右问题
 
 查看右边的链接：[Mermaid Subgraphs Laid Out Inconsistently](https://stackoverflow.com/questions/71803509/mermaid-subgraphs-laid-out-inconsistently)

@@ -8,6 +8,8 @@ categories:
   - Tutorial
 ---
 
+# Rust 入门(一)
+
 <div style="text-align: center">
 <img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" style="display: inline-block; vertical-align= middle;">
 <img src="https://mdstore.oss-cn-beijing.aliyuncs.com/markdown/rust_crab_logo.png" style="zoom: 12%; display: inline-block; vertical-align= middle;"/>
@@ -16,6 +18,8 @@ categories:
 最近听说Rust是一门最近几年非常热门的语言，它结合了大量语言的优点，有媲美C/C++的性能，还更易于管理，安全性和易用性都很强，更是有着语言自身的特性，究竟是怎么回事，还得学习后作出自己的判断
 
 以下的学习过程参照的是Rust的[官方教程](https://doc.rust-lang.org/book/)，粗略一读发现它写的非常详细，很适合新手入门，恨不得把知识塞到你嘴里赶紧用Rust开发程序了
+
+<!-- more -->
 
 ## References
 

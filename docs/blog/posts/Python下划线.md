@@ -7,7 +7,12 @@ tags:
 categories: 
   - Log
 ---
+
+# Python 下划线
+
 When learning Python many people don’t really understand why so much underlines in the beginning of the methods, sometimes even in the end like `__this__`! I’ve already had to explain it so many times, it’s time to document it.
+
+<!-- more -->
 
 ## One underline in the beginning
 

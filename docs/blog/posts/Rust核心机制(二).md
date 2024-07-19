@@ -8,6 +8,8 @@ categories:
   - Tutorial
 ---
 
+# Rust核心机制(二)
+
 <div style="text-align: center">
 <img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" style="display: inline-block; vertical-align= middle;">
 <img src="https://mdstore.oss-cn-beijing.aliyuncs.com/markdown/rust_crab_logo.png" style="zoom: 12%; display: inline-block; vertical-align= middle;"/>
@@ -16,6 +18,8 @@ categories:
 ## Understanding Ownership
 
 所有权(Ownership)是Rust最独特的功能，它对语言的其他部分有着非常重大的影响，使Rust在没有垃圾回收机制的情况下保证了内存的安全
+
+<!-- more -->
 
 ### What Is Ownership?
 

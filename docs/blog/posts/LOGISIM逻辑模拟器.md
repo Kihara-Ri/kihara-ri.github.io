@@ -18,9 +18,7 @@ categories:
 
 数字电路的模拟部分采用了C语言
 
-头文件`logisim.h`
-
-```c
+```c 头文件 logisim.h
 #include <stdio.h>
 #include <stdbool.h>
 #include <unistd.h>
@@ -53,9 +51,8 @@ typedef struct {
 #define CLOCK_CYCLE while (1)
 ```
 
-`logisim.c`
 
-```c
+```c 源文件 logisim.c
 #include <logisim.h>
 #include <stdio.h>
 
@@ -94,9 +91,9 @@ int main() {
 }
 ```
 
-编译
+编译使用下面的命令：
 
-```bash
+```bash 编译
 gcc -o logisim -I. logisim.c
 ```
 
@@ -104,7 +101,7 @@ gcc -o logisim -I. logisim.c
 
 采用Python构建模板，将数字信号转换成直观的图像输出到终端
 
-```python
+```py seg-display.py
 import fileinput
 
 TEMPLATE = '''

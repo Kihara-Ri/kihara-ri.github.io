@@ -5,7 +5,7 @@
 # title:
 # date: 2024-01-01
 # categories: 在设置的预选项中选择
-# slug: 设置post的标题
+# slug: 设置post的url名称
 # tags: 
 # ---
 # !!!需要注意的一点是文章必须要有一级标题，否则在展示界面
@@ -15,6 +15,9 @@ site_name: Kihara's Archives
 site_url: https://kihara-ri.github.io
 site_author: Kihara Ri
 site_description: This is a website for personal archives backups, idea shares and learning process records.
+repo_url: https://github.com/Kihara-Ri/kihara-ri.github.io
+repo_name: Kihara-Ri/kihara-ri.github.io
+edit_uri: edit/main/docs/
 
 # 本配置大量参考了: https://github.com/Yang-Xijie/yang-xijie.github.io/blob/main/mkdocs.yml
 # [Navigation]
@@ -43,6 +46,8 @@ theme:
   language: zh
   icon: 
     repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
   # 主题颜色
   palette:
     # 下面的 primary 和 accent 会和 media 相冲突
@@ -82,10 +87,14 @@ theme:
     - navigation.path # 显示路径
     - navigation.indexes # 章节索引: 为章节添加概述而不占用文章列表
     - toc.follow # 锚点跟随
+    # - toc.integrate # 始终展示左侧导航栏的一部分
     - navigation.top
     - search.suggest
     - search.highlight
+    - search.share
     - navigation.footer # 上下页链接
+    - content.action.edit # 编辑页面
+    - content.action.view # 查看源码
 #-----------------------------------------------------------------
 
 extra_javascript:
@@ -101,6 +110,10 @@ extra_css:
 
 #-----------------------------------------------------------------
 plugins:
+  # 这个插件允许添加上次更新日期和在每个页面底部创建文档
+  # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions-edit-this-page
+  - git-revision-date-localized:
+      enable_creation_date: true
   - blog:
       # blog_dir: blog # 仅将 /docs/blog/ 中的内容生成blog 
       blog_toc: true # 利用目录在右边展示帖子标题
@@ -140,6 +153,10 @@ plugins:
 
 # [数学公式LaTeX支持]
 markdown_extensions:
+  - toc: 
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower # 不区分大小写
   - pymdownx.arithmatex:
       generic: true
   - toc:
@@ -157,8 +174,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  - pymdownx.betterem:
-      smart_enable: all
+  - pymdownx.betterem # ** 强调符号文本智能
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:

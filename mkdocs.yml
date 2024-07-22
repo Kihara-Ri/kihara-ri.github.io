@@ -154,14 +154,14 @@ plugins:
 
 # [数学公式LaTeX支持]
 markdown_extensions:
-  - toc: 
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower # 不区分大小写
   - pymdownx.arithmatex:
       generic: true
   - toc:
-      permalink: true
+      permalink: \# #锚点链接
+      title: On this page
+      slugify: !!python/object/apply:pymdownx.slugs.slugify # 支持英文以外的锚点链接识别
+        kwds:
+          case: lower # 不区分大小写
   - pymdownx.highlight:
       linenums: true # 显示行号
       auto_title: true # 显示编程语言

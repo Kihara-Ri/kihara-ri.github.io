@@ -95,6 +95,7 @@ theme:
     - navigation.footer # 上下页链接
     - content.action.edit # 编辑页面
     - content.action.view # 查看源码
+    - content.code.copy # 代码复制按键
 #-----------------------------------------------------------------
 
 extra_javascript:

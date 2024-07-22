@@ -173,6 +173,8 @@ markdown_extensions:
   - admonition # 警告标注
   - attr_list
   - def_list
+  - pymdownx.tasklist: # 允许使用任务列表 - [ ] 和 - [x]
+      custom_checkbox: true
   - footnotes
   - md_in_html
   - pymdownx.betterem # ** 强调符号文本智能

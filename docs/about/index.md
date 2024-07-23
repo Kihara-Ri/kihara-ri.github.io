@@ -60,7 +60,7 @@
 
 ### 机器学习，编程相关
 
-- [__阿岳__](https://space.bilibili.com/480804525?spm_id_from=333.1007.tianma.2-2-5.click)，主要方向是python的算法、技巧，还有一些机器学习的内容
+- [\_\_阿岳\_\_](https://space.bilibili.com/480804525?spm_id_from=333.1007.tianma.2-2-5.click)，主要方向是python的算法、技巧，还有一些机器学习的内容
 - [同济子豪兄](https://space.bilibili.com/1900783)，计算机视觉，神经网络，另外还有[交互式地图数据可视化设计](https://www.bilibili.com/video/BV1t3411A7Z8/)
 
 
@@ -74,8 +74,6 @@
 - [Alice-Bob](https://space.bilibili.com/552018206)，系统性地讲解了**密码学**的基础知识和其所需要的数学
 - [王木头学科学](https://space.bilibili.com/504715181)，主要聚焦于**机器学习**的底层逻辑和知识讲解分析，偏向于思考和联系，讲的数学和计算机通识都是非常底层的
 
-
-
 ### 计算机基础知识
 
 - [技术蛋老师](https://space.bilibili.com/327247876)，会讲很多琐碎的计算机网络知识，前端基础知识，JavaScript等，包括vue
@@ -84,7 +82,6 @@
 ### 嵌入式
 
 - [keysking](https://space.bilibili.com/6100925)，STM32教程，非常详细
-- 
 
 ### 人文社科
 

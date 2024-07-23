@@ -14,7 +14,7 @@ def create_post(title, posts_dir):
     # 填充内容
     content = f"""---
 title: {title}
-date: '{date_now}'
+date: {date_now}
 tags:
   - 
 categories:

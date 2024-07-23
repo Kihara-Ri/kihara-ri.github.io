@@ -11,7 +11,8 @@ YELLOW = "\033[93m"
 RESET = "\033[0m"
 
 def start_mkdocs():
-    cmd = "nohup mkdocs serve -a 0.0.0.0:8000 &"
+    # 指定端口
+    cmd = "nohup mkdocs serve -a 0.0.0.0:32648 &"
     os.system(cmd)
 
     # 检查 mkdocs 服务状态
@@ -20,7 +21,7 @@ def start_mkdocs():
 
     if result.stdout:
         print(f"Mkdocs 服务{GREEN}已启动{RESET}")
-        print(f"服务状态: {GREEN}运行中{RESET}")
+        print(f"服务状态: {GREEN}运行中{RESET}，运行端口为: 32648")
     else:
         print(f"Mkdocs 服务启动{RED}失败{RESET}")
         print(f"服务状态: {RED}未运行{RESET}")

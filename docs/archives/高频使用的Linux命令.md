@@ -32,6 +32,6 @@ ls -1 | wc -l
 
 匹配所有以`.md`结尾的文件
 
-```bash title="以md结尾的文件“
+```bash title="以md结尾的文件"
 ls | grep -E "./md$"
 ```

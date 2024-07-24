@@ -1,23 +1,3 @@
----
-title: 拉格朗日插值法与中国剩余定理
-date: '2024-04-18 21:29:54'
-updated: 
-categories: Mathematics
-description: 
-keywords: 
-top_img: 
-cover: https://upload.wikimedia.org/wikipedia/commons/5/5a/Lagrange_polynomial.svg
-copyright: true
-mathjax: 
-swiper_index: 
-tags: 
-  - matrix
-  - culture
-  - function
-  - linear algebra
-abbrlink: 拉格朗日插值法与中国剩余定理
-main_color: "#e4bf66"
----
 
 ## Overview
 

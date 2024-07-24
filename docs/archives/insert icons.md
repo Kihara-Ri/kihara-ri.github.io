@@ -1,25 +1,3 @@
----
-title: 在Markdown中插入icons
-date: '2024-03-29 15:32:29'
-updated: 
-categories: logs
-description: 
-keywords: 
-top_img: 
-cover: https://mdstore.oss-cn-beijing.aliyuncs.com/markdown/202403292349691.png
-copyright: true
-mathjax: 
-swiper_index: 
-tags: 
-  - markdown
-  - html
-  - css
-  - hexo
-  - blog
-abbrlink: 在Markdown中插入icons
-main_color: "#e4bf66"
----
-
 ## 写在前面
 
 我们在浏览网站的时候，会发现别人写的Markdown文档为什么这么好看，有各种各样的效果和图案，为什么我的就没有？我连字体大小颜色都还没玩明白，别人是怎么在文章里插入这么多图标的？

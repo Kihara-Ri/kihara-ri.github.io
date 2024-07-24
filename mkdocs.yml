@@ -36,6 +36,7 @@ nav:
     - archives/index.md
     - '中国剩余定理与线性代数': 'archives/Chinese.md'
     - '在Markdown中插入icons': 'archives/insert icons.md'
+    - '高频使用的Linux命令': 'archives/高频使用的Linux命令.md'
   - Info:
     - lookups.md
     - books.md

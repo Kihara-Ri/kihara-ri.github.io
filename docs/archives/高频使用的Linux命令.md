@@ -2,6 +2,27 @@
 
 如果不记得命令中某些参数的含义，使用`tldr`快速查询实例
 
+## 日常使用
+
+下面的内容来源于[the-art-of-the-command-line](https://github.com/jlevy/the-art-of-command-line)，关于这个仓库，还有更多相关链接信息
+
+++tab++ 自动补全参数
+
+++ctrl+w++ 删除键入的最后一个单词
+
+++ctrl+u++ 删除行内光标所在位置之前的内容
+
+++ctrl+k++ 删除光标至行尾的所有内容
+
+++alt+b++ 和++alt+f++ 可以以单词为单位移动光标
+
+++ctrl+a++ 可以将光标移至行首
+
+++ctrl+e++ 可以讲光标移至行尾
+
+使用`!$`查看上次输入的参数，`!!`查看上次键入的命令，更多内容查看`man`中的`history expansion`
+
+
 ## 批量移动文件
 
 ```bash
@@ -32,6 +53,6 @@ ls -1 | wc -l
 
 匹配所有以`.md`结尾的文件
 
-```bash title="以md结尾的文件“
+```bash title="以md结尾的文件"
 ls | grep -E "./md$"
 ```

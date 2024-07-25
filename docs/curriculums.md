@@ -43,6 +43,10 @@
 - [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/overview.html)
 - [Crafting Interpreters](https://www.craftinginterpreters.com/a-map-of-the-territory.html)
 
+## GitHub 项目
+
+- 手搓数据库：[miniob](https://github.com/oceanbase/miniob)
+
 下面是GitHub上的一些教程合集：
 
 > [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)

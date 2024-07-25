@@ -34,9 +34,10 @@ nav:
   # Archives 项会经常添加文章，因此希望能够自动添加 ./docs/blog/posts 中的文章，减少麻烦和错误
   - Archives: 
     - archives/index.md
-    - '中国剩余定理与线性代数': 'archives/Chinese.md'
     - '在Markdown中插入icons': 'archives/insert icons.md'
     - '高频使用的Linux命令': 'archives/高频使用的Linux命令.md'
+    - '如何表达让英语更地道？': 'archives/如何表达让英语更地道？.md'
+    - '如何表达让日语更地道？': 'archives/如何表达让日语更地道？.md'
   - Info:
     - lookups.md
     - books.md
@@ -186,7 +187,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.keys
+  - pymdownx.keys # 使用++包裹显示按键图标
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:

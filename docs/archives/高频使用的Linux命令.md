@@ -2,6 +2,14 @@
 
 如果不记得命令中某些参数的含义，使用`tldr`快速查询实例
 
+## 日常使用
+
+下面的内容来源于[the-art-of-the-command-line](https://github.com/jlevy/the-art-of-command-line)，关于这个仓库，还有更多相关链接信息
+
+++tab++ 自动补全参数
+
+
+
 ## 批量移动文件
 
 ```bash

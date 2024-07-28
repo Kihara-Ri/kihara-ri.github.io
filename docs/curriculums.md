@@ -42,6 +42,7 @@
 - [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/overview.html)
 - [Crafting Interpreters](https://www.craftinginterpreters.com/a-map-of-the-territory.html)
+- 玩[Turing complete](https://store.steampowered.com/app/1444480/Turing_Complete/): [Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi](https://bob.cs.sonoma.edu/IntroCompOrg-RPi/frontmatter-1.html)
 
 ## GitHub 项目
 

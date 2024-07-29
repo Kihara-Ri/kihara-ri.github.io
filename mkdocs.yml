@@ -37,9 +37,10 @@ nav:
     - archives/index.md
     - '在Markdown中插入icons': 'archives/insert icons.md'
     - '高频使用的Linux命令': 'archives/高频使用的Linux命令.md'
-    - '如何表达让英语更地道？': 'archives/如何表达让英语更地道？.md'
-    - '如何表达让日语更地道？': 'archives/如何表达让日语更地道？.md'
-    - '日本語纠错': 'archives/日本語纠错.md'
+    - 'English | 如何表达让英语更地道？': 'archives/English | 如何表达让英语更地道？.md'
+    - '日本語 | 如何表达让日语更地道？': 'archives/日本語 | 如何表达让日语更地道？.md'
+    - '日本語 | 日本語纠错': 'archives/日本語 | 日本語纠错.md'
+    - 'Français | 法语入门': 'archives/Français | 法语入门.md'
   - Info:
     - lookups.md
     - books.md

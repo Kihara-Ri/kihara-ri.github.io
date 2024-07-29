@@ -26,6 +26,7 @@ nav:
   - Home: index.md
   - About:
     - about/index.md
+    - 'about/about me.md'
     - projects.md
     - musings.md
     - curriculums.md

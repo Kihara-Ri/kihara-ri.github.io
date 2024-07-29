@@ -26,7 +26,9 @@
 
 [爬虫代码开源分享平台](https://chowluking.com/share)
 
-[A Real Me](https://www.arealme.com/cn)-->认识自己！
+[A Real Me](https://www.arealme.com/cn) --> 认识自己！
+
+查询网络用语: [Urban Dictionary](https://www.urbandictionary.com/)
 
 ### 编程训练
 

@@ -21,7 +21,7 @@ Markdown的语法非常丰富，虽然表面上Markdown能做的事很少，但�
 
 ## 快捷键
 
-使用typora的时候，进入源代码模式可以使用`⌘command+/`
+使用typora的时候，进入源代码模式可以使用 ++command+/++
 
 ## 嵌入视频
 
@@ -33,6 +33,8 @@ bilibili视频可以按下面的方法嵌入：
 ```html
 <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=459231629&bvid=BV1E5411E71z&cid=297079639&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ```
+
+b站的视频默认是自动播放和开启声音的，因此如果你将视频嵌入到网页中，可能打开网页就会听到声音，这种体验很不好，而YouTube则在配置过程中就给了选项，b站不能这样操作，而是需要在 url 链接后加上信息
 
 YouTube视频可以按下面的方法嵌入：
 
@@ -55,6 +57,8 @@ YouTube视频可以按下面的方法嵌入：
 </center>
 ```
 
+然而这种操作在不同类型的Markdown编辑器中并不一定生效，如本文档使用的 Mkdocs: 
+
 <center>
 <figure class = "half">
     <img src = "https://mdstore.oss-cn-beijing.aliyuncs.com/Screenshot%202023-10-18%20at%2015.52.59.png" width = "350">
@@ -63,7 +67,16 @@ YouTube视频可以按下面的方法嵌入：
 </center>
 
 
-但是这种方法无法在hexo上正常使用，所以如果需要发布的话，优先考虑使用表格的方法：
+所以如果需要发布的话，优先考虑使用表格的方法：
+
+```html
+<center>
+<table><tr>
+  <td><img src="https://mdstore.oss-cn-beijing.aliyuncs.com/Screenshot%202023-10-18%20at%2015.52.59.png" width = "350"></td>
+  <td><img src="https://mdstore.oss-cn-beijing.aliyuncs.com/Screenshot%202023-10-18%20at%2015.53.13.png" width = "350"></td>
+</tr></table>
+</center>
+```
 
 <center>
 <table><tr>
@@ -72,6 +85,49 @@ YouTube视频可以按下面的方法嵌入：
 </tr></table>
 </center>
 
+但是这种写法在有些引擎中也不被很好地支持，如在 Mkdocs 中，如果将其中的链接换成本地的相对链接，则无法显示
+
+好在，Mkdocs给了另外一种写法，它虽然不支持使用`html`语法来显示本地相对路径的图片，但是对 Markdown 的固有语法作了扩展，如下: 
+
+```html
+<center>
+<figure markdown="span">
+    <table><tr>
+    <td>
+        ![Chiikawa](../../assets/chiikawa.jpeg){ width="250" }
+        <center><figcaption>Chikawa</figcaption></center>
+    </td>
+    <td>
+        ![neuro-sama](../../assets/Neuro-sama-2.0.png){ width="350" }
+        <center><figcaption>Neuro-sama</figcaption></center>
+    </td>
+    </tr></table>
+</figure>
+</center>
+```
+
+<center>
+<figure markdown="span">
+    <table><tr>
+    <td>
+        ![Chiikawa](../../assets/chiikawa.jpeg){ width="250" }
+        <center><figcaption>Chikawa</figcaption></center>
+    </td>
+    <td>
+        ![neuro-sama](../../assets/Neuro-sama-2.0.png){ width="350" }
+        <center><figcaption>Neuro-sama</figcaption></center>
+    </td>
+    </tr></table>
+</figure>
+</center>
+
+稍微解释一下以上的写法:
+
+1. 最外层使用`<center>`让表格居中，因为 Mkdocs 并不支持表格的居中，其在官方文档中也提示我们这么做
+2. 使用两个`<td>`让两个图片排列在同一行，如果不使用表格的话，我们没法做到同一行显示两张图片
+3. 使用`{ width="300" }`的写法来规定图片大小，这与一般的 Markdown 语法也不相同
+4. 使用`<figcaption>`来为图片加上名称，原生的 Markdown 并没有这个功能
+5. 再次使用`<center>`来将图名进行居中，这是使用表格后的一点小问题，如果你不使用，图名将不能正常显示在中间，当然，如果你正常使用图片标签而不使用表格，则不需要加上居中标签
 
 ## 注音
 
@@ -123,8 +179,6 @@ function displayAlert() {
 
 ```
 
-{% raw %}
-
 <!-- 在Hexo博客文章中嵌入的HTML按钮 -->
 
 <center>
@@ -157,9 +211,6 @@ function displayAlert() {
     alert("你点击了按钮！");
 }
 </script>
-
-{% endraw %}
-
 
 ## JavaScript动画
 
@@ -316,12 +367,9 @@ function displayAlert() {
 </body>
 </html>
 
-{% endraw %}
-
 以下为显示动画的源代码：
 
 ```html
-{% raw %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -472,7 +520,5 @@ function displayAlert() {
     </script>
 </body>
 </html>
-
-{% endraw %}
 ```
 

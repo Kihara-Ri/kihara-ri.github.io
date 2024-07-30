@@ -54,27 +54,43 @@
 
     **Comment t'appelles-tu?**
 
-### 2. 
+两种用于向全体打招呼的方式
 
-Bonjour, tout le monde!
+=== "Bonjour, tout le monde!"
 
-Bonjour à tous!
+    meaning: "Hello everyone" or "Good morning, everyone."
 
-Très bien, merci. Et vous?
+    directly addresses "everyone" in the **room** or **group** to greet a crowd friendly and is inclusive
 
-À demain!
+    both formal and informal are ok
 
-Qui est-ce?
+=== "Bonjour à tous!"
 
-C'est Michel.
+    meaning: "Hello to all!" or "Good morning, to all!"
 
-Et elle, c'est qui?
+    often used in written communications, like emails or announcements, as well as in speeches or broadcasts
 
-Qù vas-tu? Je vais à Paris.
+    a bit more formal than the former
 
-Qù allez-vous? Nous allons en Chine.
+称呼 **You** 的方式
 
-### 3. 
+=== "informal"
+
+    **Q: Qù vas-tu?** - where are you going?
+
+    **A: Je vais à Paris.** - I'm going to Paris.
+
+=== "formal"
+
+    **Q: Qù allez-vous?** - where are you going?
+    
+    **A: Nous allons en Chine.** - We are going to China.
+
+有意思的点是英语中的 *you* 恰好没办法区分法语中这两种表达的区别，因为英语第二人称根本不分单复数
+
+法语中的`tu`为第二人称单数，并表明这个人是你熟悉的, 而`vous`表示正式(或尊敬)的第二人称(不分单复数)
+
+### 3. Tell the Time
 
 Quelle heure est-il?
 
@@ -92,38 +108,51 @@ C'est la portable de qui? C'est la portable de Léo.
 
 C'est le stylo de qui? C'est le stylo de Paul.
 
-### 4. 
+### 2. Self Introduction
 
-Vous êtes chinois? Qui, je suis chinois.
+一般疑问句
 
-Vous êtes chinoise? Qui, je suis chinoise.
+- Vous êtes chinois? Qui, je suis chinois.
+- Vous êtes chinoise? Qui, je suis chinoise.
+- Vous êtes espagnol? Non, je ne suis pas espagnol, je suis portugais.
+- Vous êtes espagnole? Non, je ne suis pas espagnole, je suis portugaise.
 
-Vous êtes espagnol? Non, je ne suis pas espagnol, je suis portugais.
+`êtes`为`être`的第二人称敬称
 
-Vous êtes espagnole? Non, je ne suis pas espagnole, je suis portugaise.
+否定句中我们发现法语中使用了`non`和`pas`把动词夹在中间来表示否定，这一点很有意思
 
-### 5. 
+法语中经常出现连读的情况，并且跟英语比起来分得比较清楚
 
-Qu'est-ce que vous faites?
+``` title="He likes(doesn't like) coffee"
+Il aime le café.
+Il n'aime pas le café.
+```
 
-Je suis professeur.
+表示职业
 
-journaliste
+=== "第二人称"
 
-facteur
+    Qu'est-ce que vous faites?
 
-étudiant
+    Je suis professeur(teacher, professor).
 
+            journaliste(journalist)
 
-Qu'est-ce qu'il fait?
+            facteur(postman)
 
-Il est plombier.
+            étudiant(student)
 
-perntre
+=== "第三人称"
 
-ingénieur
+    Qu'est-ce qu'il fait?
 
-vendeur
+    Il est plombier(plumber).
+
+            perntre(painter)
+
+            ingénieur(engineer)
+
+            vendeur(vendor)
 
 !!! note "Self Introduction"
 

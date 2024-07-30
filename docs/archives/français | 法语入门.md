@@ -4,27 +4,49 @@
 
 ## From Scratch
 
-### 1. 
+### 1. Greetings and Basic Phrases 
 
-问候: 
+=== "formal"
 
-=== "français"
+    **Bonjour** - Hello / Good morning
 
-    Bonjour, madame!
-    
-    Salut
+    **Bonsoir** - Good evening
 
-    Ça va, merci
+=== "informal"
 
-=== "English"
+    Salut - Hi / Bye
 
-    Comment t'appelles-tu?
+Say *How are you?*
 
-    Je m'appelle Annie
+=== 
 
-    Qù habites-tu?
+    Comment ça va?
 
-    J'habite à Paris
+    Ça va?
+
+    Ça va bien, merci
+
+    Et vous? Et toi?
+
+===
+
+Say *What is your name?*
+
+=== "formal"
+
+    **Comment vous appelez-vous?**
+
+=== "informal"
+
+    **Comment tu t'appelles?**
+
+    **Comment t'appelles-tu?**
+
+Je m'appelle Annie
+
+Qù habites-tu?
+
+J'habite à Paris
 
 ### 2. 
 
@@ -80,22 +102,22 @@ Qu'est-ce que vous faites?
 
 Je suis professeur.
 
-        journaliste
-        
-        facteur
-        
-        étudiant
-        
+journaliste
+
+facteur
+
+étudiant
+
 
 Qu'est-ce qu'il fait?
 
 Il est plombier.
 
-       perntre
+perntre
 
-       ingénieur
+ingénieur
 
-       vendeur
+vendeur
 
 !!! note "Self Introduction"
 
@@ -123,13 +145,13 @@ Quelle langue parlez-vous?
 
 Je parle chinois.
 
-         japonais
-         
-         allemand
-         
-         anglais
-         
-         italien
+japonais
+
+allemand
+
+anglais
+
+italien
 
 ### 7. 
 

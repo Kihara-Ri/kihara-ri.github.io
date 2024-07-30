@@ -6,6 +6,8 @@
 
 ### 1. Greetings and Basic Phrases 
 
+**打招呼的基本词**
+
 === "formal"
 
     **Bonjour** - Hello / Good morning
@@ -14,39 +16,39 @@
 
 === "informal"
 
-    Salut - Hi / Bye
+    **Salut** - Hi / Bye
 
-Say *How are you?*
+**Say *How are you?***
 
-=== 
+=== “formal"
 
-    Comment ça va?
+    **Q: Comment ça va?** - How are you?
 
-    Ça va?
+    **A: Ça va bien, merci.** - I'm fine, thank you.
 
-    Ça va bien, merci
+    **Et vous?** - And you?
 
-    Et vous? Et toi?
+=== "informal"
 
-===
+    **Q: Ça va?** - How's it going?
 
-Say *What is your name?*
+    **A: Ça va, merci.** - I'm fine, thank you.
+    
+    **Et toi?** - And you?
+
+**Say *What is your name?***
 
 === "formal"
 
-    **Comment vous appelez-vous?**
+    **Q: Comment vous appelez-vous?** - What is your name?
+
+    **A: Je m'appelle...** - My name is...
 
 === "informal"
 
     **Comment tu t'appelles?**
 
     **Comment t'appelles-tu?**
-
-Je m'appelle Annie
-
-Qù habites-tu?
-
-J'habite à Paris
 
 ### 2. 
 

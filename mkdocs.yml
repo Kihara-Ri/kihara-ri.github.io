@@ -40,7 +40,7 @@ nav:
     - 'English | 如何表达让英语更地道？': 'archives/English | 如何表达让英语更地道？.md'
     - '日本語 | 如何表达让日语更地道？': 'archives/日本語 | 如何表达让日语更地道？.md'
     - '日本語 | 日本語纠错': 'archives/日本語 | 日本語纠错.md'
-    - 'Français | 法语入门': 'archives/Français | 法语入门.md'
+    - 'français | 法语入门': 'archives/français | 法语入门.md'
     - '한국어 | 韩语入门': 'archives/한국어 | 韩语入门.md'
   - Info:
     - lookups.md
@@ -54,6 +54,19 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
+    admonition: # Markdown 语法扩展中告示框图标
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
   # 主题颜色
   palette:
     # 下面的 primary 和 accent 会和 media 相冲突

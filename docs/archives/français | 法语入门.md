@@ -132,27 +132,25 @@ Il n'aime pas le café.
 
 === "第二人称"
 
+    ```title="what do you do?"
     Qu'est-ce que vous faites?
 
     Je suis professeur(teacher, professor).
-
             journaliste(journalist)
-
             facteur(postman)
-
             étudiant(student)
+    ```
 
 === "第三人称"
 
+    ```title="what does he do?"
     Qu'est-ce qu'il fait?
 
     Il est plombier(plumber).
-
-            perntre(painter)
-
-            ingénieur(engineer)
-
-            vendeur(vendor)
+           perntre(painter)
+           ingénieur(engineer)
+           vendeur(vendor)
+    ```
 
 !!! note "Self Introduction"
 

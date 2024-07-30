@@ -67,6 +67,7 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+    annotation: material/arrow-right-circle # 注释图标
   # 主题颜色
   palette:
     # 下面的 primary 和 accent 会和 media 相冲突

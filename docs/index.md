@@ -13,6 +13,7 @@
 
 - [ ] [生化危机4](https://www.bilibili.com/video/BV1594y1p7UN/?spm_id_from=333.788&vd_source=abed696091cea364eece1cf5cb2e843d)
 - [ ] [大学法语：法语语法基础-南京大学(精品课)](https://www.bilibili.com/video/BV1eT411777z/?p=3&spm_id_from=333.880.my_history.page.click&vd_source=abed696091cea364eece1cf5cb2e843d)
+- [ ] 安装并驱动树莓派摄像头 --> [1](https://blog.csdn.net/luteresa/article/details/121351377), [2](https://www.waveshare.net/study/portal.php?mod=view&aid=962)
 - [ ] 完成blog统计脚本
 - [ ] 多项式插值的龙格现象解决方法 --> 切比雪夫滤波器
 - [ ] 赌徒必输理论，醉鬼回家问题(一维二维三维)，马尔可夫链 Mathematica有相关视频

@@ -8,8 +8,6 @@
 # slug: 设置post的url名称
 # tags: 
 # ---
-# !!!需要注意的一点是文章必须要有一级标题，否则在展示界面
-# !!!显示的是文件名称并且无法点击跳转
 # ---------------------------------------------------------------
 site_name: Kihara's Archives
 site_url: https://kihara-ri.github.io

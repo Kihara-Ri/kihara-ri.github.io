@@ -74,10 +74,35 @@
 
 > lacking strong features or characteristics and therefore uninteresting.
 >
-> (of food or drink) unseasoned, mild-tasting, or insipid.
+> (of food or drink) unseasoned (1), mild-tasting, or insipid.
 >
 > showing no strong emotion.
+{ .annotate }
+
+1.  (of food) not flavoured with salt, pepper, or other spices.
 
 ---
+
+两种薯条(说实话我也不知道这两种薯条在中文中叫什么，只知道一种是细薯条，另一种为锯齿状)，但是在英文中对应着两种切法: [julienning](https://www.wikiwand.com/en/Julienning)和[crinkle-cutting](https://www.wikiwand.com/en/Crinkle-cutting)
+
+=== "julienne fries"
+
+    ![French_fries](https://upload.wikimedia.org/wikipedia/commons/8/83/French_Fries.JPG){ width="300" }
+
+    这种细切法又被叫做法式切法，由此可以推测细切薯条被叫做 [*French fries*](https://www.wikiwand.com/en/French_fries) 的原因
+
+=== "crinkle fries"
+
+    ![crinkle_fries](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/SupermaketFries.jpg/1920px-SupermaketFries.jpg){ width="300" }
+
+    根据维基百科 [Crinkle-cutting](https://www.wikiwand.com/en/Crinkle-cutting) (2) 这种切法还见于薯片、华夫饼等食物，其中薯片我们一般叫它波浪薯片，在英文中确实也有使用 *wave* 来称呼的
+    { .annotate }
+
+    2.  Crinkle-cutting is slicing that leaves a corrugated surface. It can be done to enhance the texture or mechanical properties of food. Crinkle-cutting French fries may improve their crispiness, as well as their ability to retain dipping sauce.
+
+薯条一般我们都热衷于吃刚烤出来的脆( *crispy* )的，然而放软了的薯条不是用 *soft* 来形容，一般英语使用者会使用 *soggy*(3) 来称呼这种状态
+{ .annotate }
+
+3.  wet and soft
 
 ---

@@ -67,3 +67,17 @@
 **pumped** --> 虽然作动词的意思是*抽水*或者*泵*的意思，但是也可以用来表示**高兴**、**兴奋**。 I'm pretty pumped.
 
 ---
+
+**bland** --> 如果你要形容食物、饭菜很一般、平淡没有特色，可以使用: The food is *bland* and boring.
+
+*bland* 在这里的意思主要是平淡: 
+
+> lacking strong features or characteristics and therefore uninteresting.
+>
+> (of food or drink) unseasoned, mild-tasting, or insipid.
+>
+> showing no strong emotion.
+
+---
+
+---

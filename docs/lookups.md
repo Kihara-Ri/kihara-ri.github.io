@@ -28,7 +28,9 @@
 
 [A Real Me](https://www.arealme.com/cn) --> 认识自己！
 
-查询网络用语: [Urban Dictionary](https://www.urbandictionary.com/)
+查询网络用语: 
+- [Urban Dictionary](https://www.urbandictionary.com/)
+- [slange.net](https://slang.net/)
 
 ### 编程训练
 

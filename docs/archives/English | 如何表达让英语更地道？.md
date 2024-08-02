@@ -87,7 +87,7 @@
 
 两种薯条(说实话我也不知道这两种薯条在中文中叫什么，只知道一种是细薯条，另一种为锯齿状)
 
-但是在英文中对应着两种切法: [julienning](https://www.wikiwand.com/en/Julienning)和[crinkle-cutting](https://www.wikiwand.com/en/Crinkle-cutting)
+但是在英文中对应着两种切法: [*julienning*](https://www.wikiwand.com/en/Julienning) 和 [*crinkle-cutting*](https://www.wikiwand.com/en/Crinkle-cutting)
 
 === "julienne fries"
 

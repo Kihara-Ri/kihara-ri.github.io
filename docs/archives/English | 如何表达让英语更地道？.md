@@ -70,16 +70,19 @@
 
 **bland** --> 如果你要形容食物、饭菜很一般、平淡没有特色，可以使用: The food is *bland* and boring.
 
-*bland* 在这里的意思主要是*平淡*(1)
+*bland* 在这里的意思主要是*平淡*: 
+
+<div class="annotate" markdown>
+    
+> lacking strong features or characteristics and therefore uninteresting.
+>
+> - (of food or drink) unseasoned (1), mild-tasting, or insipid.
+> - showing no strong emotion.
 { .annotate }
 
-1.  lacking strong features or characteristics and therefore uninteresting.
-
-    - (of food or drink) unseasoned (1), mild-tasting, or insipid.
-    - showing no strong emotion.
-    { .annotate }
+</div>
     
-    1.  (of food) not flavoured with salt, pepper, or other spices.
+1.  (of food) not flavoured with salt, pepper, or other spices.
 
 ---
 

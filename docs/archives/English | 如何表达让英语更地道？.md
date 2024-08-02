@@ -128,3 +128,99 @@
 **cringe** --> 奉承、谄媚，退缩，畏缩，感到难为情、难堪，也可以作名词用作畏缩，或者让人感到畏缩的事情
 
 ---
+
+**gear up** --> *prepare or equip oneself for sth; get ready*，有 *抓紧时间，准备好* 的意思
+
+> The buss leaves in 30 minutes, so gear up 
+
+## GAME
+
+--from [*game 这个单词，可远远不止游戏...*](https://www.bilibili.com/video/BV1ZB4y1z73W/)
+
+*Game* 这个词有非常多的意思，并且被高频使用，如果你只知道 *游戏* 或 *比赛* 的话，最好还是了解一下下面的这些含义，否则在面对这个词的时候经常会一头雾水
+
+**领域/行业 的竞争**
+
+*the best in the game* --> *业界最佳*
+
+*be back in the game* --> *重出江湖、重操旧业*
+
+*name of the game* --> *某领域最重要、最本质的概念*
+
+*beat someone at their own game* --> *在某人最熟悉的领域打败他，以其人之道还治其人之身*
+
+*married to the game* --> *将某事业看成终身大事，为某事献出一生*
+
+**水准**
+
+*at the top of one's game* --> *处于巅峰水平，风生水起*
+
+*bring one's A game* --> *拿出最高水平*
+
+*up one's game* --> *提升水平*
+
+*someone has/got game* --> 非常口语化的说法，表示 *水平不错，有点东西* ，此外，这个表达也有男生**撩妹**水平高超(1)的意思，因此如果你想对别人说“你很会撩啊”，可以直接说: *Youe got game!*
+{ .annotate }
+
+1.  这里也因为 *game* 含有 *花招，把戏，阴谋* 的意思
+
+**猎物**
+
+*Game* 作为 *猎物* 的意思时，与 *prey*(1) 侧重点不同，*game* 更侧重于动物的肉和农副产品属性，**gamey**: 肉腥味、膻味
+{ .annotate }
+
+1.  *prey*: 侧重于 *捕猎的**目标***
+
+*fair game* --> *可供 **嘲讽/攻击** 的对象；可 **获取/使用** 的对象*，更口语化地表达就是 *任人宰割* ，或者在餐厅或是自助餐中 *随便拿*
+
+**有意愿的，感兴趣参与的**
+
+*I'm game* --> *我愿意*
+
+*play the waiting game* --> *伺机而动*
+
+*play the blame game* --> *甩锅*
+
+*it's anyone's game* --> *胜负难料* ，谁赢还不好说呢
+
+*game changer* --> *破局者，**颠覆性的**事物*
+
+*a different ball game* --> *完全另一码事*
+
+---
+
+## 称赞
+
+--from [*good 不够夸? 英语离谱的夸人方式...*](https://www.bilibili.com/video/BV17t4y1T7RU/)
+
+让我们停下使用 good, awesome, amazing, wonderful, fantastic, epic... 这些词，来点不一样的
+
+(on) fire --> 爆赞👍
+
+*It rocks* --> 大受震撼，非常棒
+
+*sth slap(s)* --> 非常牛逼，贼弔，更多用于称赞**音乐**
+
+*sth smack(s)* --> 用于称赞**食物**
+
+*I'm nailing it* --> 表现得非常棒
+
+*crush it* --> 碾压，也可以用来表示称赞
+
+*kill it* --> 大杀四方，也可以用来表示称赞
+
+使用副词**加强威力**:
+
+*This game is **truly** epic!*
+
+*This song slaps **hard**!*
+
+*She's **absolutely** crushing it!*
+
+*He **literally** killed it!* --> *literally* 这个词以前我听到得非常多，当时一头雾水为什么说英语的人会用这样一个奇怪的词
+
+这样，我们就成功地学会了如何像一个老外一样表达震惊和夸赞
+
+*unironically* --> 不吹不黑，有一说一 (有点乐了这个词)
+
+---

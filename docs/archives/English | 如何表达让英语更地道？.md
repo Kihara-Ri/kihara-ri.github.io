@@ -78,7 +78,6 @@
 >
 > - (of food or drink) unseasoned (1), mild-tasting, or insipid.
 > - showing no strong emotion.
-{ .annotate }
 
 </div>
     

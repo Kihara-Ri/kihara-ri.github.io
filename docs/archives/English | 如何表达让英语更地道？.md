@@ -81,7 +81,7 @@
 
 </div>
     
-1.  (of food) not flavoured with salt, pepper, or other spices.
+1.  unseasoned: (of food) not flavoured with salt, pepper, or other spices.
 
 ---
 

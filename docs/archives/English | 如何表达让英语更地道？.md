@@ -227,10 +227,10 @@
 
 [**corned beef**](https://omni.wikiwand.com/en/articles/corned_beef) --> 腌牛肉，咸牛肉
 
-![corned_beef](https://omni.wikiwand.com/en/articles/corned_beef#/media/File:Cooked_corned_beef.JPG)
+![corned_beef](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cooked_corned_beef.JPG/920px-Cooked_corned_beef.JPG){ width="300" }
 
 其中 **corned** 意为 *(of food) preserved in brine*(1)
 { .annotate }
 
-1.  **brine**: water strongly impregnated with salt. 盐水，卤水；浸入盐水 如[腌黄瓜](https://omni.wikiwand.com/en/articles/Pickled_cucumber)就是这么做的，但是这里使用的是 *pickled* ![pickled_cucumber](http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGX8e6w1qU2h6JuFvByK3apTxWu-EcUCTpid3WaQDSiz9E9R89Hs1TnRt50IFAL-l3mQJskEp5XZpaZIclLJg)
+1.  **brine**: water strongly impregnated with salt. 盐水，卤水；浸入盐水 如[腌黄瓜](https://omni.wikiwand.com/en/articles/Pickled_cucumber)就是这么做的，但是这里使用的是 *pickled* ![pickled_cucumber](http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGX8e6w1qU2h6JuFvByK3apTxWu-EcUCTpid3WaQDSiz9E9R89Hs1TnRt50IFAL-l3mQJskEp5XZpaZIclLJg){ width="300" }
 

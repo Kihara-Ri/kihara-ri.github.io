@@ -10,6 +10,7 @@
 ## 有用文章
 
 - [How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html)
+- [Oggi.jp おしゃれもキャリアも。働く女性のWebメディア](https://oggi.jp/)
 
 ## 实用网站
 

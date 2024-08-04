@@ -224,3 +224,13 @@
 *unironically* --> 不吹不黑，有一说一 (有点乐了这个词)
 
 ---
+
+[**corned beef**](https://omni.wikiwand.com/en/articles/corned_beef) --> 腌牛肉，咸牛肉
+
+![corned_beef](https://omni.wikiwand.com/en/articles/corned_beef#/media/File:Cooked_corned_beef.JPG)
+
+其中 **corned** 意为 *(of food) preserved in brine*(1)
+{ .annotate }
+
+1.  **brine**: water strongly impregnated with salt. 盐水，卤水；浸入盐水 如[腌黄瓜](https://omni.wikiwand.com/en/articles/Pickled_cucumber)就是这么做的，但是这里使用的是 *pickled* ![pickled_cucumber](http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGX8e6w1qU2h6JuFvByK3apTxWu-EcUCTpid3WaQDSiz9E9R89Hs1TnRt50IFAL-l3mQJskEp5XZpaZIclLJg)
+

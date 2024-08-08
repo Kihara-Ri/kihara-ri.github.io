@@ -199,6 +199,7 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist: # 允许使用任务列表 - [ ] 和 - [x]
       custom_checkbox: true
+      clickable_checkbox: true # 让复选框可以点击，非永久
   - footnotes
   - md_in_html
   - pymdownx.betterem # ** 强调符号文本智能
@@ -217,9 +218,6 @@ markdown_extensions:
         - name: mermaid # mermaid支持
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-      clickable_checkbox: true # 让复选框可以点击，非永久
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - pymdownx.tilde
 #-----------------------------------------------------------------
 

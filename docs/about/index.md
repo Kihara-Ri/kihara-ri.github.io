@@ -57,6 +57,37 @@ tags:
 
 如果使用`blog`插件，那么引擎就会自动抓取相应目录下的文章，并且一股脑地全部放到一个page中，这个时候就会导致信息非常多，且浏览起来不方便，引擎提供了[Adding an excerpt](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#adding-an-excerpt)功能，允许我们在Markdown中通过加入分隔符`<!-- more -->`来显示摘要，引擎会只显示标题和分隔符上面的内容，自动视其为摘要，而后面的部分则被省略
 
+## 图标和 emojis
+
+material 主题准备了很多可用的图标和 emoji
+
+<div class="mdx-iconsearch" data-mdx-component="iconsearch">
+  <input
+    class="md-input md-input--stretch mdx-iconsearch__input"
+    placeholder="Search the icon and emoji database"
+    data-mdx-component="iconsearch-query"
+  />
+  <div class="mdx-iconsearch-result" data-mdx-component="iconsearch-result">
+    <select
+      class="mdx-iconsearch-result__select"
+      data-mdx-component="iconsearch-select"
+    >
+      <option value="all" selected>All</option>
+      <option value="icons">Icons</option>
+      <option value="emojis">Emojis</option>
+    </select>
+    <div class="mdx-iconsearch-result__meta"></div>
+    <ol class="mdx-iconsearch-result__list"></ol>
+  </div>
+</div>
+<small>
+  :octicons-light-bulb-16:
+  **Tip:** Enter some keywords to find icons and emojis and click on the
+  shortcode to copy it to your clipboard.
+</small>
+
+更多查看: [https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-animations-docsstylesheetsextracss](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-animations-docsstylesheetsextracss)
+
 ## 更多 Markdown 扩展
 
 如果你想使用更多的功能，查看: [Material Reference](https://squidfunk.github.io/mkdocs-material/reference/)

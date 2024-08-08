@@ -83,6 +83,10 @@ material 主题准备了很多可用的图标和 emoji :smile:
 
 更多查看: [icons&emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-animations-docsstylesheetsextracss)
 
+## 代码块配置
+
+查看 [code-blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-line-numbers)
+
 ## 更多 Markdown 扩展
 
 如果你想使用更多的功能，查看: [Material Reference](https://squidfunk.github.io/mkdocs-material/reference/)

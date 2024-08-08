@@ -182,16 +182,18 @@ markdown_extensions:
         kwds:
           case: lower # 不区分大小写
   - pymdownx.highlight:
-      linenums: true # 显示行号
-      auto_title: true # 显示编程语言
+      # linenums: true # 显示行号
+      anchor_linenums: true
+      # auto_title: true # 显示编程语言 不显示的原因是容易与后面的内容选项卡(content tabs)重复
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.tabbed: # 可读的锚链接 内容选项卡 不是很好用
-      alternate_style: true
-      combine_header_slug: true # 将代码框标头放到选项卡上
-  #    slugify: !!python/object/apply:pymdownx.slugs.slugify
-  #      kwds:
-  #        case: lower
+  - pymdownx.tabbed:
+      alternate_style: true # 开启内容选项卡
+      # 将代码框标头放到选项卡上
+      combine_header_slug: true
+      # slugify: !!python/object/apply:pymdownx.slugs.slugify # 可读的锚链接 内容选项卡 不是很好用
+      # kwds:
+      # case: lower
   - pymdownx.snippets
   - pymdownx.superfences
   - abbr

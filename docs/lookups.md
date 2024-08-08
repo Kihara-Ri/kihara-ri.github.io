@@ -33,6 +33,10 @@
 - [Urban Dictionary](https://www.urbandictionary.com/)
 - [slange.net](https://slang.net/)
 
+Emoji pedia:
+
+- [😂emojipedia](https://emojipedia.org/)
+
 ### 编程训练
 
 - [Command Challenge](https://cmdchallenge.com/)—->成为command line高手！

@@ -234,3 +234,8 @@
 
 1.  **brine**: water strongly impregnated with salt. 盐水，卤水；浸入盐水 如[腌黄瓜](https://omni.wikiwand.com/en/articles/Pickled_cucumber)就是这么做的，但是这里使用的是 *pickled* ![pickled_cucumber](http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGX8e6w1qU2h6JuFvByK3apTxWu-EcUCTpid3WaQDSiz9E9R89Hs1TnRt50IFAL-l3mQJskEp5XZpaZIclLJg){ width="300" }
 
+---
+
+**bushed** --> 不仅有 *灌木* 的意思，还有 *tired out* 和 *exhausted* 的含义，在中文互联网的语境下有时你可以将其理解为 **汗流浃背了** 😰
+
+---

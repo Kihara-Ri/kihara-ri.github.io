@@ -187,6 +187,7 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.tabbed: # 可读的锚链接 内容选项卡
+      alternate_style: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
@@ -216,8 +217,7 @@ markdown_extensions:
         - name: mermaid # mermaid支持
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
+      clickable_checkbox: true # 让复选框可以点击，非永久
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde

@@ -114,7 +114,7 @@ theme:
     - content.action.edit # 编辑页面
     - content.action.view # 查看源码
     - content.code.copy # 代码复制按键
-    - content.tabs.link # 内容选项卡根据标签而不是偏移量如 `#__tabbed_8_2` 来链接，须配合 pymdown.tabbed 使用 
+    # - content.tabs.link # 内容选项卡根据标签而不是偏移量如 `#__tabbed_8_2` 来链接，须配合 pymdown.tabbed 使用 
 #-----------------------------------------------------------------
 
 extra_javascript:
@@ -186,11 +186,11 @@ markdown_extensions:
       auto_title: true # 显示编程语言
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.tabbed: # 可读的锚链接 内容选项卡
-      alternate_style: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
+  # - pymdownx.tabbed: # 可读的锚链接 内容选项卡 不是很好用
+  #    alternate_style: true
+  #    slugify: !!python/object/apply:pymdownx.slugs.slugify
+  #      kwds:
+  #        case: lower
   - pymdownx.snippets
   - pymdownx.superfences
   - abbr

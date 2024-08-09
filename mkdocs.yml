@@ -130,8 +130,6 @@ extra_css:
 
 #-----------------------------------------------------------------
 plugins:
-  - cname:
-      domain: kihara.cn
   # 这个插件允许添加上次更新日期和在每个页面底部创建文档
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions-edit-this-page
   - git-revision-date-localized:

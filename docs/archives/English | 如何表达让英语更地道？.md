@@ -232,7 +232,8 @@
 其中 **corned** 意为 *(of food) preserved in brine*(1)
 { .annotate }
 
-1.  **brine**: water strongly impregnated with salt. 盐水，卤水；浸入盐水 如[腌黄瓜](https://omni.wikiwand.com/en/articles/Pickled_cucumber)就是这么做的，但是这里使用的是 *pickled* ![pickled_cucumber](http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGX8e6w1qU2h6JuFvByK3apTxWu-EcUCTpid3WaQDSiz9E9R89Hs1TnRt50IFAL-l3mQJskEp5XZpaZIclLJg){ width="300" }
+1.  **brine**: water strongly impregnated with salt. 盐水，卤水；浸入盐水 如[腌黄瓜](https://omni.wikiwand.com/en/articles/Pickled_cucumber)就是这么做的，但是这里使用的是 *pickled* ，二者的根本差别是 *pickled* 为 **酸溶液** ，而 *brine* 指代的是盐水
+![pickled_cucumber](http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGX8e6w1qU2h6JuFvByK3apTxWu-EcUCTpid3WaQDSiz9E9R89Hs1TnRt50IFAL-l3mQJskEp5XZpaZIclLJg){ width="300" }
 
 ---
 

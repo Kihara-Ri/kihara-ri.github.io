@@ -250,7 +250,7 @@
 
 ---
 
-[**flop**](https://www.collinsdictionary.com/dictionary/english/flop#:~:text=If%20something%20is%20a%20flop,4.) --> 用作动词时，有 *因为太累而谈到在...* 的意思，如:
+[**flop**](https://www.collinsdictionary.com/dictionary/english/flop#:~:text=If%20something%20is%20a%20flop,4.) --> 用作动词时，有 *因为太累而瘫倒在...* 的意思，如:
 
 1. *flop into a chair* : 用来表达疲劳
 2. *flop onto something else* : 悬挂、垂

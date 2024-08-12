@@ -249,3 +249,14 @@
 2. 发疯(这个含义极大概率来源于上一条的引申) *freak out*
 
 ---
+
+[**flop**](https://www.collinsdictionary.com/dictionary/english/flop#:~:text=If%20something%20is%20a%20flop,4.) --> 用作动词时，有 *因为太累而谈到在...* 的意思，如:
+
+1. *flop into a chair* : 用来表达疲劳
+2. *flop onto something else* : 悬挂、垂
+
+由上面的意思引申， *flop* 也可以表达 *失败*，并且为 **彻底的失败**
+
+更多时候 *flop* 用作名词，作为动词的引申含义， *flop* 意为 **失败**
+
+---

@@ -1,3 +1,4 @@
 site/
 nohup.out
 .cache
+*.swp

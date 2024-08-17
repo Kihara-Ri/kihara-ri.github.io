@@ -11,6 +11,7 @@
 > - データ構造とアルゴリズム
 > - プログラミング
 
+- [ ] **一项新的任务: 将MC贴图增加至本网站**
 - [ ] [大学法语：法语语法基础-南京大学(精品课)](https://www.bilibili.com/video/BV1eT411777z/?p=3&spm_id_from=333.880.my_history.page.click&vd_source=abed696091cea364eece1cf5cb2e843d)
 - [ ] [生化危机3](https://www.bilibili.com/video/BV1z54y1R7Qx?p=9&spm_id_from=pageDriver&vd_source=abed696091cea364eece1cf5cb2e843d)
 - [ ] 安装并驱动树莓派摄像头 --> [1](https://blog.csdn.net/luteresa/article/details/121351377), [2](https://www.waveshare.net/study/portal.php?mod=view&aid=962)

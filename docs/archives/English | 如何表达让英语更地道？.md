@@ -232,10 +232,47 @@
 其中 **corned** 意为 *(of food) preserved in brine*(1)
 { .annotate }
 
-1.  **brine**: water strongly impregnated with salt. 盐水，卤水；浸入盐水 如[腌黄瓜](https://omni.wikiwand.com/en/articles/Pickled_cucumber)就是这么做的，但是这里使用的是 *pickled* ![pickled_cucumber](http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGX8e6w1qU2h6JuFvByK3apTxWu-EcUCTpid3WaQDSiz9E9R89Hs1TnRt50IFAL-l3mQJskEp5XZpaZIclLJg){ width="300" }
+1.  **brine**: water strongly impregnated with salt. 盐水，卤水；浸入盐水 如[腌黄瓜](https://omni.wikiwand.com/en/articles/Pickled_cucumber)就是这么做的，但是这里使用的是 *pickled* ，二者的根本差别是 *pickled* 为 **酸溶液** ，而 *brine* 指代的是盐水
+![pickled_cucumber](http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGX8e6w1qU2h6JuFvByK3apTxWu-EcUCTpid3WaQDSiz9E9R89Hs1TnRt50IFAL-l3mQJskEp5XZpaZIclLJg){ width="300" }
 
 ---
 
 **bushed** --> 不仅有 *灌木* 的意思，还有 *tired out* 和 *exhausted* 的含义，在中文互联网的语境下有时你可以将其理解为 **汗流浃背了** 😰
 
 ---
+
+**tweak** --> 如果你不知道这个词而看了机翻或是词典的解释，那么很多句子你都看不懂， *tweak* 这个词在词典中意为 **拧**，但是现在表达这个含义的用法实际上已经很少了，实际上更接近的意思是 **非常轻微地调整某物**，常见于一些计算机设置，当我们说 *tweak the settings* 时，意为 *做一些小的调整* 让它更好地工作
+
+另外在俚语中还有:
+
+1. 滥用毒品(尤其是冰毒) abuse methamphetamines
+2. 发疯(这个含义极大概率来源于上一条的引申) *freak out*
+
+---
+
+[**flop**](https://www.collinsdictionary.com/dictionary/english/flop#:~:text=If%20something%20is%20a%20flop,4.) --> 用作动词时，有 *因为太累而瘫倒在...* 的意思，如:
+
+1. *flop into a chair* : 用来表达疲劳
+2. *flop onto something else* : 悬挂、垂
+
+由上面的意思引申， *flop* 也可以表达 *失败*，并且为 **彻底的失败**
+
+更多时候 *flop* 用作名词，作为动词的引申含义， *flop* 意为 **失败**
+
+---
+
+**chill**(1) --> 这个词在词典的意思中通常是 *寒冷的* ，但是这种用法现在并不多见，在俚语中更为常见的含义是 **一种放松、随意的状态**
+{ .annotate }
+
+1. The origin of the word "chill" is unclear, but it has been used in various forms for several centuries. It may come from the Old English word "chillan," meaning to cool or become cold, or the Middle English word "chilen," meaning to make cold or cool. In the 1960s, "chill" began to be used as a slang term to describe a relaxed or laid-back attitude, and it has since become a widely used term in popular culture.
+
+The full meaning of "chill" in slang is subjective and can vary depending on the context and the speaker. Generally, it is used to describe a state of calmness or relaxation, or to encourage someone to take a more relaxed or easygoing approach to a situation. It can also be used to describe something that is cool or easy to like, such as music or fashion.
+
+常见的 **chill** 的用法有: 
+
+1. To relax or hang out with friend without any specific plans or expectations.
+2. To be calm or cool in a stressful situation.
+3. To ask someone to calm down or stop overreacting.
+4. To describe something that is laid back or easygoing.
+
+对于另一种变体 **chilling** 也有相似的含义: typically refers to the act of relaxing or hanging out wwith friends. It can also refer to the act of doing nothing in particular, just taking it easy and enjoying some downtime.

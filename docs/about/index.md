@@ -57,6 +57,25 @@ tags:
 
 如果使用`blog`插件，那么引擎就会自动抓取相应目录下的文章，并且一股脑地全部放到一个page中，这个时候就会导致信息非常多，且浏览起来不方便，引擎提供了[Adding an excerpt](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#adding-an-excerpt)功能，允许我们在Markdown中通过加入分隔符`<!-- more -->`来显示摘要，引擎会只显示标题和分隔符上面的内容，自动视其为摘要，而后面的部分则被省略
 
+## 注释
+
+注释的方法查看 [Reference/Annotations](https://squidfunk.github.io/mkdocs-material/reference/annotations/?h=annotations)
+
+如果需要在如引用等结构中使用注释，可以使用
+
+``` html
+<div class="annotate" markdown>
+> 这里是内容...
+</div>
+``` 
+
+上面这种写法就不用加`{ .annotate }`了
+
+???+ warning
+
+    需要注意注释由`1.  `这样的类似于有序列表的形式引导，因此一个注释只能占用一行，如果想要多行注释，目前暂时没有好的办法
+
+
 ## 图标和 emojis
 
 material 主题准备了很多可用的图标和 emoji :smile:

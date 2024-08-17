@@ -59,10 +59,10 @@ categories:
 
 🪨刷石机
 
-需要了解 :TNT: TNT 的性质:
+需要了解 :TNT: [TNT](https://minecraft.wiki/w/TNT) 的性质:
 
 1. TNT 被激活后只需要有一部分进入到水中或抗爆方块(如黑曜石系方块和含水半砖)后就不会对外界方块有破坏力，但是对生物和掉落物仍然有伤害
-2. TNT 在被激活后会随机向一个位置跳动，并且在
+2. TNT 在被激活后会随机向一个位置跳动，并且如果是通过火或红石信号激活，将在 80 game ticks (4 seconds)后爆炸
 
 简易刷石机参考: :bilibili: [「开荒必备」简易高效圆石原木一体机](https://www.bilibili.com/video/BV163411N7YU/)
 ## 矿物

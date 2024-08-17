@@ -264,8 +264,7 @@
 **chill**(1) --> 这个词在词典的意思中通常是 *寒冷的* ，但是这种用法现在并不多见，在俚语中更为常见的含义是 **一种放松、随意的状态**
 { .annotate }
 
-1. The origin of the word "chill" is unclear, but it has been used in various forms for several centuries. It may come from the Old English word "chillan," meaning to cool or become cold, or the Middle English word "chilen," meaning to make cold or cool. In the 1960s, "chill" began to be used as a slang term to describe a relaxed or laid-back attitude, and it has since become a widely used term in popular culture.
-
+1. The origin of the word "chill" is unclear, but it has been used in various forms for several centuries. It may come from the Old English word "chillan," meaning to cool or become cold, or the Middle English word "chilen," meaning to make cold or cool. In the 1960s, "chill" began to be used as a slang term to describe a relaxed or laid-back attitude, and it has since become a widely used term in popular culture.\n
 The full meaning of "chill" in slang is subjective and can vary depending on the context and the speaker. Generally, it is used to describe a state of calmness or relaxation, or to encourage someone to take a more relaxed or easygoing approach to a situation. It can also be used to describe something that is cool or easy to like, such as music or fashion.
 
 常见的 **chill** 的用法有: 
@@ -276,3 +275,13 @@ The full meaning of "chill" in slang is subjective and can vary depending on the
 4. To describe something that is laid back or easygoing.
 
 对于另一种变体 **chilling** 也有相似的含义: typically refers to the act of relaxing or hanging out wwith friends. It can also refer to the act of doing nothing in particular, just taking it easy and enjoying some downtime.
+
+---
+
+<div class="annotate" markdown>
+
+**patch** --> 名词的含义为 **补丁、**(1)
+
+</div>
+
+1. a small contrasting part or sth.

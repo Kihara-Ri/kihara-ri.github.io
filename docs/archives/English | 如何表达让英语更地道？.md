@@ -306,3 +306,11 @@ The full meaning of "chill" in slang is subjective and can vary depending on the
 
 ---
 
+[**Spamming**](https://en.wikipedia.org/wiki/Spamming) --> 在中文互联网中，这个词的意思更接近于 **刷屏**，*spamming* 本身的含义是 **垃圾邮件**，但是国内用户不太常用邮箱，也很少有垃圾广告会以电子邮件的形式发送，但是在国外这种行为就是 *重复向收件人发送相同的邮件*，这和我们所理解的 *刷屏* 非常相似
+
+Cambridge dictionary 对 *spamming* 的解释是: the activity of sending advertisements by email to people who do not want to receive them
+
+用法: 
+
+- Don't spame me.
+- If you leave spam comments, you will get blocked.

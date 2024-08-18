@@ -50,5 +50,6 @@ java -version
 ## References
 
 1. [Minecraft wiki: 教程:架设Java版服务器](https://zh.minecraft.wiki/w/Tutorial:%E6%9E%B6%E8%AE%BEJava%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8?variant=zh-cn)
-2. 
+2. [我的世界 Fabric 1.19.3 服务器搭建教程](https://blog.zeruns.tech/archives/699.html)
 3. [【SherkHol】我的世界mod服务器开设教程 模组服 新手简单易学，Java版通用，内网穿透 - 服务器系列#2](https://www.bilibili.com/video/BV1Fv41147kb/)
+4. [Getting started with MCSS](https://docs.mcserversoft.com/)

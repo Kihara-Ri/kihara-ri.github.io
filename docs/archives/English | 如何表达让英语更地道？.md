@@ -264,7 +264,7 @@
 **chill**(1) --> 这个词在词典的意思中通常是 *寒冷的* ，但是这种用法现在并不多见，在俚语中更为常见的含义是 **一种放松、随意的状态**
 { .annotate }
 
-1. The origin of the word "chill" is unclear, but it has been used in various forms for several centuries. It may come from the Old English word "chillan," meaning to cool or become cold, or the Middle English word "chilen," meaning to make cold or cool. In the 1960s, "chill" began to be used as a slang term to describe a relaxed or laid-back attitude, and it has since become a widely used term in popular culture.\n
+1. The origin of the word "chill" is unclear, but it has been used in various forms for several centuries. It may come from the Old English word "chillan," meaning to cool or become cold, or the Middle English word "chilen," meaning to make cold or cool. In the 1960s, "chill" began to be used as a slang term to describe a relaxed or laid-back attitude, and it has since become a widely used term in popular culture.
 The full meaning of "chill" in slang is subjective and can vary depending on the context and the speaker. Generally, it is used to describe a state of calmness or relaxation, or to encourage someone to take a more relaxed or easygoing approach to a situation. It can also be used to describe something that is cool or easy to like, such as music or fashion.
 
 常见的 **chill** 的用法有: 
@@ -280,8 +280,29 @@ The full meaning of "chill" in slang is subjective and can vary depending on the
 
 <div class="annotate" markdown>
 
-**patch** --> 名词的含义为 **补丁、**(1)
+**patch** --> 名词的含义为 **补丁**(1)，实际上更本质的意思是一片**碎片**，与周围环境截然不同，因此引申的含义为**修补、掩饰、平息**
+
+因此我们在各种程序、游戏中发现的 bug, 漏洞等都可以用这个词来表示 *修复 bug* 和 *打补丁*
 
 </div>
 
-1. a small contrasting part or sth.
+1. a small **contrasting** part or sth. **Contrasting** 可以理解为有明显差异的
+
+---
+
+[**prime**](https://dictionary.cambridge.org/dictionary/english/primed) --> 意为 **准备好**，如果你只查看它的中文意思，*Google translation* 会告诉你意思为: *灌注、装填*，这并没有错，但是不够本质
+
+实际上 **prime** 有下面三个主要意思:
+
+1. to tell someone sth. that will prepare them for a particular situation
+2. to cover the surface of wood with a special paint before the main paint is put on(1)
+3. to make a bomb or gun ready to explode or fire(2)
+{ .annotate }
+
+1. 给木头刷上油漆
+2. 在英文 [Minecraft wiki](https://minecraft.wiki/w/TNT) 上称呼引爆的TNT为 *primed TNT*
+
+除此以外，**prime** 作形容词还有 *质量最高* 和 *最重要的* 的含义，作名词意为 *一生中最活跃和成功的时期（高光时刻）*
+
+---
+

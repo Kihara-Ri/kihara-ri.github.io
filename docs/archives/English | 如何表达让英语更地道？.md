@@ -314,3 +314,20 @@ Cambridge dictionary 对 *spamming* 的解释是: the activity of sending advert
 
 - Don't spame me.
 - If you leave spam comments, you will get blocked.
+
+---
+
+**mob** --> 本意指的是 *a large crowd of people, especially one that is disorderly and intent on causing trouble or violence*(1)，相近的词有 **horde, throng**，我们可以轻易联想到一些组织或民众上街抗议、举行示威活动或暴乱，因此也可以叫做 **mob violence** 或 **riot**。(2)非正式的用法还可以表达 *a group of people who are friends or who are similar in some way* 或者 *an organization of criminals(犯罪团伙)*
+{ .annotate }
+
+1. 来源: [Oxford Languages](https://www.google.com/search?sca_esv=239e17b70a928ec2&sxsrf=ADLYWIJl-YjGH2zjq9CYPIn_Vm9EYQKFhA:1723992528919&q=mob&si=ACC90nwQhLWtoIbyYWw_jDx-MOW_aj2FBPg6rvD8OxAg1PPncQmdAsx3ca9h72Dppkff08cZD2vzqmdu_saaitMzFMFaoJb5CA%3D%3D&expnd=1&sa=X&ved=2ahUKEwiAkaDS5P6HAxUKbvUHHYBkJrQQ2v4IegUIIRCwAQ&cshid=1723992695716024&biw=2216&bih=1294&dpr=1)
+2. 来源: [https://en.wikipedia.org/wiki/Riot](https://en.wikipedia.org/wiki/Riot)
+
+我第一次见到这个词的时候是在 Minecraft 中，*mob* 被用来描述 AI游戏实体(*AI-driven game entity*)，如果你使用机翻，你就会得到 *暴徒/暴民* 的翻译，嗯...好像也是这么回事，一帮由AI控制的怪物，像一帮乌合之众，会对玩家和村民造成伤害，这样也翻译得通...但实际上 *mob* 在这里是 **mobile/mobile entity/mobile object** 的缩写(1)，英文在这里也玩了个小小的双关
+{ .annotate }
+
+1. 来源: [https://minecraft.wiki/w/Mob](https://minecraft.wiki/w/Mob)
+
+---
+
+

@@ -323,11 +323,19 @@ Cambridge dictionary 对 *spamming* 的解释是: the activity of sending advert
 1. 来源: [Oxford Languages](https://www.google.com/search?sca_esv=239e17b70a928ec2&sxsrf=ADLYWIJl-YjGH2zjq9CYPIn_Vm9EYQKFhA:1723992528919&q=mob&si=ACC90nwQhLWtoIbyYWw_jDx-MOW_aj2FBPg6rvD8OxAg1PPncQmdAsx3ca9h72Dppkff08cZD2vzqmdu_saaitMzFMFaoJb5CA%3D%3D&expnd=1&sa=X&ved=2ahUKEwiAkaDS5P6HAxUKbvUHHYBkJrQQ2v4IegUIIRCwAQ&cshid=1723992695716024&biw=2216&bih=1294&dpr=1)
 2. 来源: [https://en.wikipedia.org/wiki/Riot](https://en.wikipedia.org/wiki/Riot)
 
-我第一次见到这个词的时候是在 Minecraft 中，*mob* 被用来描述 AI游戏实体(*AI-driven game entity*)，如果你使用机翻，你就会得到 *暴徒/暴民* 的翻译，嗯...好像也是这么回事，一帮由AI控制的怪物，像一帮乌合之众，会对玩家和村民造成伤害，这样也翻译得通...但实际上 *mob* 在这里是 **mobile/mobile entity/mobile object** 的缩写(1)，英文在这里也玩了个小小的双关
+我第一次见到这个词的时候是在 Minecraft 中，*mob* 被用来描述 AI游戏实体(*AI-driven game entity*)，如果你使用机翻，你就会得到 *暴徒/暴民* 的翻译，嗯...好像也是这么回事，一帮由AI控制的怪物，像一帮乌合之众，会对玩家和村民造成伤害，这样也翻译得通...但实际上 *mob* 在这里是 **mobile/mobile entity/mobile object** 的缩写(1)，用以指带所有的移动实体，英文在这里也玩了个小小的双关
 { .annotate }
 
 1. 来源: [https://minecraft.wiki/w/Mob](https://minecraft.wiki/w/Mob)
 
 ---
 
+**spin-off** --> 这个词直翻成中文意为 **分拆、副产品(by-product)**，但是我觉得这个翻译并不够贴切，它的意思更像是 **一个 series(系列)中的一部** ，如 Minecraft 有如下这些 *spin-off games: Minecraft Dungeons, Minecraft Earth, Minecraft Story Mode, Minecraft Legends* 
 
+**spinoff** 则有 **续集** 的含义，对此的更精准的解释为: *a product that develops from another more important product*
+
+在这里我们将其与 **derivative** 相比较，这个词通常被我们理解为数学领域的 *导数* 或是化学领域里一些有机物的 *衍生物* ，当然后面的含义更为本质
+
+实际上 **derivative** 的含义就是 *基于另一个已经存在的作品而创作出来的衍生品* ，如*权力的游戏* 是 *冰与火之歌* 的 *derivative*，*魔戒* 和 *指环王* 系列电影是托尔金的小说 *魔戒* 的小说改，还有很多动画都是小说改(轻改)、漫改... 这些 *derivative* 的共同特性是它们基本都遵循原作，只是展现的手段不同
+
+而 *spin-off* 与之相比最大的不同就是这其中的每一部都是完全独立的

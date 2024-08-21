@@ -24,9 +24,12 @@ categories:
 
 [^1]: 来源：[https://zh.minecraft.wiki/w/Tutorial:%E6%9E%B6%E8%AE%BEJava%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8?variant=zh-cn](https://zh.minecraft.wiki/w/Tutorial:%E6%9E%B6%E8%AE%BEJava%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8?variant=zh-cn)
 
+### 一条命令安装Java
+
 ``` shell
 # 更新包列表
 sudo apt update
+
 # 安装OpenJDK
 sudo apt install openjdk-21-jdk
 ```
@@ -37,7 +40,55 @@ sudo apt install openjdk-21-jdk
 java -version
 ```
 
-至此，我们的前置工作就已经做完了，相当轻松
+### 手动安装Java
+
+如果在执行命令的时候提示`E: Unable to locate package openjdk-21-jdk`，说明这个系统发行版的默认存储库中还没有包含 Java21，这时我们需要手动下载安装
+
+你可以参考中文官方wiki [教程:架设Java版服务器](https://zh.minecraft.wiki/w/Tutorial:%E6%9E%B6%E8%AE%BEJava%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83)，也可以按照我下面的步骤操作:
+
+``` shell
+# 下载JDK21
+wget https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.tar.gz
+
+# 解压JDK
+tar -xzf jdk-21_linux-aarch64_bin.tar.gz
+```
+
+这时可以发现当前目录下有一个`jdk-21.0.4`，通过`ls`命令查看具体名称，我们需要将其移动到`/opt`目录下(其实移动到哪都可以，看个人喜好)
+
+``` shell
+sudo mv jdk-21.0.4 /opt/
+```
+
+编辑`~/.bashrc`文件，随便找个位置添加:
+
+```shell
+export JAVA_HOME=/opt/jdk-21.0.4
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+这里建议使用`vim`编辑，方便快捷:
+
+``` shell
+vim ~/.bashrc
+```
+
+完成后使用`:wq`保存退出，然后重新加载一下`bash`:
+
+``` shell
+source ~/.bashrc
+```
+
+然后验证一下是否已经添加进环境变量:
+
+``` shell
+$ java -version
+java version "21.0.4" 2024-07-16 LTS
+Java(TM) SE Runtime Environment (build 21.0.4+8-LTS-274)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.4+8-LTS-274, mixed mode, sharing)
+```
+
+至此，我们的前置工作就已经做完了
 
 ## 安装纯净游戏本体
 
@@ -45,11 +96,43 @@ java -version
 
 ## 安装 Fabric Server
 
+`Fabric`是一个轻量级的 Mod API，有较好的性能，我们需要运行它需要 Fabric API 和 Fabric Loader，其中 Fabric Loader 用于加载 Mod，而 Fabric API 则提供一些基础的接口供开发者使用，允许其他 Mod 注册物品、模型、方块、图形界面等[^2]
+
+[^2]: 来源: [我的世界 Fabric 1.19.3 服务器搭建教程](https://blog.zeruns.tech/archives/699.html)
+
+现在我们进入 [Fabric 官网](https://fabricmc.net/)，在导航栏的 Download 中找到 [Minecraft Server](https://fabricmc.net/use/server/)，如图所示的界面中可以选择对应的版本:
+
+<center>
+![minecraft_server](../../assets/minecraft_server.png){ width="400" }
+</center>
+
+下面的生成的命令会根据选择的版本而改变，这里我就以最新版本为例:
+
+``` shell
+# 创建文件夹并进入
+mkdir fabric-server && cd $_
+# 下载服务器jar包
+curl -OJ https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.2/1.0.1/server/jar
+```
+
+下载完成后我们就得到了名为`fabric-server-mc.1.21.1-loader.0.16.2-launcher.1.0.1.jar`的服务器启动文件
+
+使用下面的命令启动这个 Java 程序:
+
+``` shell
+java -Xmx4G -jar fabric-server-mc.1.21.1-loader.0.16.2-launcher.1.0.1.jar nogui
+```
+
+其中`-Xmx4G`参数的含义为设置 JVM 的最大堆内存大小，`4G`指定了堆内存的最大值为4GB。同时也可以设置`-Xms`参数，用于设置堆内存的厨师大小，将这两个参数设为相同数值可以避免在运行时动态调整堆内存大小，以提升性能[^3]
+
+[^3]: [Benefits of Setting Initial and Maximum Memory Size to the Same Value](https://dzone.com/articles/benefits-of-setting-initial-and-maximum-memory-siz)
 
 
 ## References
 
 1. [Minecraft wiki: 教程:架设Java版服务器](https://zh.minecraft.wiki/w/Tutorial:%E6%9E%B6%E8%AE%BEJava%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8?variant=zh-cn)
 2. [我的世界 Fabric 1.19.3 服务器搭建教程](https://blog.zeruns.tech/archives/699.html)
-3. [【SherkHol】我的世界mod服务器开设教程 模组服 新手简单易学，Java版通用，内网穿透 - 服务器系列#2](https://www.bilibili.com/video/BV1Fv41147kb/)
-4. [Getting started with MCSS](https://docs.mcserversoft.com/)
+3. [在不使用GUI的情况下安装 Fabric Server](https://fabricmc.net/wiki/zh_cn:player:tutorials:install_server)
+4. [【SherkHol】我的世界mod服务器开设教程 模组服 新手简单易学，Java版通用，内网穿透 - 服务器系列#2](https://www.bilibili.com/video/BV1Fv41147kb/)
+5. [架设服务器（基础）](https://docs.mualliance.cn/zh/dev/server/base)
+6. [Getting started with MCSS](https://docs.mcserversoft.com/)

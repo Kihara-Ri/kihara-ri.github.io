@@ -346,5 +346,9 @@ Cambridge dictionary 对 *spamming* 的解释是: the activity of sending advert
 { .annotate }
 
 1. wiki百科对其的解释为: A clutch is a mechanical device that allows an output shaft to be disconnected from a rotating input shaft. The clutch's input shaft is typically attached to a motor, while the clutch's output shaft is connected to the mechanism taht does the work. In a motor vehicle, the clutch acts as a mechanical linkage between the engine and transmission. By disengaging the clutch, the engine speed(RPM) is no longer determined by the speed of the driven wheels.
-2. 对于 *clutch* 所表示的 *抓住* , 对象为一些比手大一些的不能包裹住的物品,比如书和钱包等, 你可以将这些物品夹在胳肢窝下或夹在手上, 这些都可以叫作 *clutch*. 更多内容查看[本链接](https://www.italki.com/en/post/question-442100)的内容, 作者还比较了 *grasp, grip, grab, clutch* 之间的细微差别
+2. 对于 *clutch* 所表示的 *抓住* , 对象为一些比手大一些的不能包裹住的物品,比如书和钱包等, 你可以将这些物品夹在胳肢窝下或夹在手上, 这些都可以叫作 *clutch*. 更多内容查看[本链接](https://www.italki.com/en/post/question-442100)的内容, 作者还比较了 *grasp, grip, grab, clutch* 之间的细微差别。因为对于上面的动词含义, *clutch* 作名词时也可以表示一种 [**手提包**](https://en.wikipedia.org/wiki/Handbag#Types): ![clutch](https://en.wikipedia.org/wiki/Handbag#/media/File:Vintage_clutch_(847652012).jpg){ width="350" }
+
+---
+
+**hit piece** --> 
 

@@ -103,7 +103,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 21.0.4+8-LTS-274, mixed mode, sharing)
 现在我们进入 [Fabric 官网](https://fabricmc.net/)，在导航栏的 Download 中找到 [Minecraft Server](https://fabricmc.net/use/server/)，如图所示的界面中可以选择对应的版本:
 
 <center>
-![minecraft_server](../../assets/minecraft_server.png){ width="400" }
+![minecraft_server](../../assets/minecraft_server.png){ width="800" }
 </center>
 
 下面的生成的命令会根据选择的版本而改变，这里我就以最新版本为例:
@@ -134,5 +134,5 @@ java -Xmx4G -jar fabric-server-mc.1.21.1-loader.0.16.2-launcher.1.0.1.jar nogui
 2. [我的世界 Fabric 1.19.3 服务器搭建教程](https://blog.zeruns.tech/archives/699.html)
 3. [在不使用GUI的情况下安装 Fabric Server](https://fabricmc.net/wiki/zh_cn:player:tutorials:install_server)
 4. [【SherkHol】我的世界mod服务器开设教程 模组服 新手简单易学，Java版通用，内网穿透 - 服务器系列#2](https://www.bilibili.com/video/BV1Fv41147kb/)
-5. [架设服务器（基础）](https://docs.mualliance.cn/zh/dev/server/base)
+5. [Minecraft高校联盟资料站: 架设服务器（基础）](https://docs.mualliance.cn/zh/dev/server/base)
 6. [Getting started with MCSS](https://docs.mcserversoft.com/)

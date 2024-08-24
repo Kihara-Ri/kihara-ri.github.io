@@ -89,7 +89,7 @@ cpu_usage = 100 * (total_time_diff - idle_time_diff) / total_time_diff
 
 通过下面的脚本可以每1秒采一次样，并且将计算得到的CPU利用率记录在csv文件中:
 
-=== title="Python"
+=== "Python"
 
     ``` py linenums="1"
     import time
@@ -143,7 +143,7 @@ cpu_usage = 100 * (total_time_diff - idle_time_diff) / total_time_diff
       main()
     ```
 
-=== title="Shell"
+=== "Shell"
 
     ``` shell linesnum="1"
     #!/bin/bash

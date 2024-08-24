@@ -356,15 +356,14 @@ Cambridge dictionary 对 *spamming* 的解释是: the activity of sending advert
 
 ---
 
-**hit piece** --> 
-
-A published article or post aiming to sway public opinion, especially by presenting false or biased information in a way that appears objective and truthful.(1)
+**hit piece** --> A published article or post aiming to sway public opinion, especially by presenting false or biased information in a way that appears objective and truthful.(1)
 { .annotate }
 
 1. 来源: https://en.wiktionary.org/wiki/hit_piece
 
 An attempt to turn public opinion against someone/something through the appearance of objective reporting or editorializing(1)(BBC惯用伎俩了:sweat_smile:).
 { .annotate }
+
 1. 来源: https://www.urbandictionary.com/define.php?term=hit%20piece
 
 ---

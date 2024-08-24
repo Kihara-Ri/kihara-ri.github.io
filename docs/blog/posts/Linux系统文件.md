@@ -145,7 +145,7 @@ cpu_usage = 100 * (total_time_diff - idle_time_diff) / total_time_diff
 
 === "Shell"
 
-    ``` bash linesnum="1"
+    ``` shell linenums="1"
     #!/bin/bash
 
     # 获取当前日期，生成 CSV 文件名
@@ -199,3 +199,60 @@ cpu_usage = 100 * (total_time_diff - idle_time_diff) / total_time_diff
       echo "$current_time,$cpu_usage" >> "$csv_file"
     done
     ```
+
+## 获取内存占用情况
+
+通过访问文件`/proc/meminfo`来获取内存信息:
+
+``` shell
+$ cat /proc/meminfo
+MemTotal:        3831956 kB
+MemFree:          220500 kB
+MemAvailable:     349392 kB
+Buffers:           21808 kB
+Cached:           131604 kB
+SwapCached:         1768 kB
+Active:          1873608 kB
+Inactive:        1555248 kB
+Active(anon):    1758632 kB
+Inactive(anon):  1532236 kB
+Active(file):     114976 kB
+Inactive(file):    23012 kB
+Unevictable:       10896 kB
+Mlocked:              16 kB
+SwapTotal:        204796 kB
+SwapFree:          71164 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:                64 kB
+Writeback:             0 kB
+AnonPages:       3284792 kB
+Mapped:            80264 kB
+Shmem:             15456 kB
+KReclaimable:      68388 kB
+Slab:             100848 kB
+SReclaimable:      68388 kB
+SUnreclaim:        32460 kB
+KernelStack:        7184 kB
+PageTables:        17156 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2120772 kB
+Committed_AS:    5835936 kB
+VmallocTotal:   257687552 kB
+VmallocUsed:       15792 kB
+VmallocChunk:          0 kB
+Percpu:              720 kB
+CmaTotal:         524288 kB
+CmaFree:           17284 kB
+```
+
+这里我们需要中断了解以下5项:
+
+1. `MemTotal`: 系统的总内存量
+2. `MemFree`: 系统剩余的空闲内存
+3. `MemAvailable`: 更真实地反应了系统的可用内存，考虑了缓存和缓冲区的内存
+4. `SwapTotal`和`SwapFree`: 交换空间的使用情况，当物理内存不足时系统会使用交换空间
+5. `Committed_AS`: 系统已经分配的内存，可能高于物理内存总量，如果这个值过大，可能会引发 OOM(内存不足) 的问题

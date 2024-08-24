@@ -1,5 +1,5 @@
 ---
-title: Minecraft | 搭建MC服务器
+title: Minecraft | 搭建MC服务器(未完成)
 date: 2024-08-17
 tags:
   - Minecraft

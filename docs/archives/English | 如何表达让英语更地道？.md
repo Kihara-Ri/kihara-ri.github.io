@@ -345,7 +345,7 @@ Cambridge dictionary 对 *spamming* 的解释是: the activity of sending advert
 **clutch** --> 对于这个词我们常见的意思有两种, 作名词时为 [**离合器**](https://en.wikipedia.org/wiki/Clutch)(1), 作动词时为 [**抓住**](https://www.italki.com/en/post/question-442100)(2), 但是如果在网络中出现, 它很可能并不是上面两个意思中的任意一个
 { .annotate }
 
-1. wiki百科对其的解释为: A clutch is a mechanical device that allows an output shaft to be disconnected from a rotating input shaft. The clutch's input shaft is typically attached to a motor, while the clutch's output shaft is connected to the mechanism taht does the work. In a motor vehicle, the clutch acts as a mechanical linkage between the engine and transmission. By disengaging the clutch, the engine speed(RPM) is no longer determined by the speed of the driven wheels.
+1. wikipedia对其的解释为: A clutch is a mechanical device that allows an output shaft to be disconnected from a rotating input shaft. The clutch's input shaft is typically attached to a motor, while the clutch's output shaft is connected to the mechanism that does the work. In a motor vehicle, the clutch acts as a mechanical linkage between the engine and transmission. By disengaging the clutch, the engine speed(RPM) is no longer determined by the speed of the driven wheels.
 2. 对于 *clutch* 所表示的 *抓住* , 对象为一些比手大一些的不能包裹住的物品,比如书和钱包等, 你可以将这些物品夹在胳肢窝下或夹在手上, 这些都可以叫作 *clutch*. 更多内容查看[本链接](https://www.italki.com/en/post/question-442100)的内容, 作者还比较了 *grasp, grip, grab, clutch* 之间的细微差别。因为对于上面的动词含义, *clutch* 作名词时也可以表示一种 [**手提包**](https://en.wikipedia.org/wiki/Handbag#Types): ![clutch](https://upload.wikimedia.org/wikipedia/commons/d/db/Vintage_clutch_%28847652012%29.jpg){ width="350" }
 
 而可能表达的意思为: **力挽狂澜**, 需要注意这里我将其本地化了, 因为我觉得 *clutch* 的英文描述非常接近中文里的这个意思, 而实际 English speakers 描述起来这个词的含义时相当啰嗦. 个人的理解是 *clutch* 本身带有 *抓紧* 的意思, 引申一下就是紧握仅有的机会反败为胜, 这在游戏和比赛中非常常见, 因此 **clutch moment** 的含义也为 *紧要关头* (大概,并不准确)
@@ -356,15 +356,11 @@ Cambridge dictionary 对 *spamming* 的解释是: the activity of sending advert
 
 ---
 
-**hit piece** --> 
+[**hit piece**](https://en.wiktionary.org/wiki/hit_piece) --> A published article or post aiming to sway public opinion, especially by presenting false or biased information in a way that appears objective and truthful.
 
-- A published article or post aiming to sway public opinion, especially by presenting false or biased information in a way that appears objective and truthful.(1)
+An attempt to turn public opinion against someone/something through the appearance of objective reporting or editorializing(1)(BBC惯用伎俩了:sweat_smile:).
 { .annotate }
 
-1. 来源: https://en.wiktionary.org/wiki/hit_piece
-
-- An attempt to turn public opinion against someone/something through the appearance of objective reporting or editorializing(1)(BBC惯用伎俩了:sweat_smile:).
-{ .annotate }
 1. 来源: https://www.urbandictionary.com/define.php?term=hit%20piece
 
 ---
@@ -375,11 +371,10 @@ Cambridge dictionary 对 *spamming* 的解释是: the activity of sending advert
 
 ---
 
-**DonoWall** --> 这是一个 **动词**! 意为 To be completely ignored or disregarded (talking to a wall), whether in conversation or in twitch [donation](https://www.urbandictionary.com/define.php?term=donation)(1).(2)
+[**DonoWall**](https://www.urbandictionary.com/define.php?term=DonoWall) --> 这是一个 **动词**! 意为 To be completely ignored or disregarded (talking to a wall), whether in conversation or in twitch [donation](https://www.urbandictionary.com/define.php?term=donation)(1).
 { .annotate }
 
 1. donation 在这里的意思为 **打赏** , 在中文语境下带有 *网络主播是赛博乞丐或卖艺人, 观众看得开心予以打赏* , 在英文中则有类似的含义, 但是是给 *妓女*
-2. 来源: https://www.urbandictionary.com/define.php?term=DonoWall
 
 ---
 

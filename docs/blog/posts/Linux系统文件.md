@@ -145,7 +145,7 @@ cpu_usage = 100 * (total_time_diff - idle_time_diff) / total_time_diff
 
 === "Shell"
 
-    ``` shell linesnum="1"
+    ``` bash linesnum="1"
     #!/bin/bash
 
     # 获取当前日期，生成 CSV 文件名

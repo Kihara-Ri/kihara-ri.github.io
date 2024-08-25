@@ -47,7 +47,7 @@ ls -1 | wc -l
 
 `ls -1`命令将每个文件按行列出，然后使用`wc -l`计数行数
 
-## 查看正在运行的程序
+## 查看程序状态
 
 **查看服务**
 
@@ -68,6 +68,8 @@ systemctl list-units --type=service
 ``` bash
 systemctl status <service-name>
 ```
+
+**查看端口占用情况**
 
 
 
@@ -97,14 +99,14 @@ ls | grep -E "./md$"
 
 **查看当前进程数**
 
-=== grep 正则匹配
+=== "grep 正则匹配"
 
     ``` bash
     ls /proc | grep -E "^[0-9]+$" | wc -l
     ```
     正则匹配查找所有的进程ID
 
-=== ps
+=== "ps"
 
     ``` bash
     ps aux | wc -l

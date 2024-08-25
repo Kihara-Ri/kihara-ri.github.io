@@ -11,10 +11,14 @@
 - [LaTeX常用表达式](./blog/posts/LaTeX常用表达式.md)
 - [LaTeX Tables Editor](https://www.latex-tables.com/)
 
-## 有用文章
+## cheatsheets
+
+[**Rico's cheatsheets**](https://devhints.io/): 有很多命令的cheatsheets, 包括`grep, mysql, tmux, bash, vim`等等
+## 有趣网站
 
 - [How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html)
 - [Oggi.jp おしゃれもキャリアも。働く女性のWebメディア](https://oggi.jp/)
+- [神秘的程序员们——中文首部以技术文化和程序员为主题的漫画](https://code2048.com/)<center>![the_best_editor](./assets/the_best_editor.png){ width="300" }</center>
 
 ## 实用网站
 

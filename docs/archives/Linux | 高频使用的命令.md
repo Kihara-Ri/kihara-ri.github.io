@@ -1,10 +1,10 @@
 # 高频使用的Linux命令
 
-如果不记得命令中某些参数的含义，使用`tldr`快速查询实例
+如果不记得命令中某些参数的含义，使用`tldr`快速查询实例, 使用`man`查看详细解释(但是有点难懂), 在 [explainshell](https://explainshell.com/) 中可以获得更好的解释
 
 ## 日常使用
 
-下面的内容来源于[the-art-of-the-command-line](https://github.com/jlevy/the-art-of-command-line)，关于这个仓库，还有更多相关链接信息
+下面的内容来源于 [the-art-of-the-command-line](https://github.com/jlevy/the-art-of-command-line) ，关于这个仓库，还有更多相关链接信息
 
 ++tab++ 自动补全参数
 
@@ -20,7 +20,7 @@
 
 ++ctrl+e++ 可以讲光标移至行尾
 
-使用`!$`查看上次输入的参数，`!!`查看上次键入的命令，更多内容查看`man`中的`history expansion`
+使用`!$`/`$_`查看上次输入的参数，`!!`查看上次键入的命令，更多内容查看`man`中的`history expansion`
 
 
 ## 批量移动文件
@@ -71,7 +71,9 @@ systemctl status <service-name>
 
 **查看端口占用情况**
 
-
+``` shell
+netstat -tlunp | head
+```
 
 ## grep 命令活用
 

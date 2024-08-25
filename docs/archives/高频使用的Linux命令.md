@@ -47,6 +47,30 @@ ls -1 | wc -l
 
 `ls -1`命令将每个文件按行列出，然后使用`wc -l`计数行数
 
+## 查看正在运行的程序
+
+**查看服务**
+
+所有启动的服务
+
+``` bash
+systemctl list-units --type=service --state=running
+```
+
+所有服务, 包括未启动的
+
+``` bash
+systemctl list-units --type=service
+```
+
+查看服务状态
+
+``` bash
+systemctl status <service-name>
+```
+
+
+
 ## grep 命令活用
 
 `grep`命令的含义为: **global regular expression print**[^1]

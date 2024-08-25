@@ -1,5 +1,5 @@
 ---
-title: Linux系统文件
+title: Linux | 系统文件
 date: 2024-08-21
 tags:
   - Linux
@@ -7,7 +7,7 @@ categories:
   - CS
 ---
 
-# **Linux系统文件(未完成)**
+# **Linux | 系统文件(未完成)**
 
 尝试在 Linux 上运行一些服务，并且监控系统的情况以了解服务对机器性能的需求
 

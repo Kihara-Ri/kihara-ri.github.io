@@ -1,10 +1,11 @@
 ---
-title: cURL命令 
+title: Linux | 获取网络内容
 date: 2023-12-16
 tags: 
   - internet 
   - 开发 
   - curl
+  - wget
 categories: 
   - Log
 ---

@@ -1,4 +1,4 @@
-# 法语入门
+# **法语入门**
 
 不知为何突然对法语有一点感兴趣，那么就先试着学学吧。不同于英语和日语，国内的法语教程并不是很多，很多也都是大学课程，可能并不是很有趣，但是了解了一些欧洲中世纪及近代史后，我感受到了法语在世界范围内的影响力 (1) ，尽管它在我们东方世界并不是很知名，但是在我人生的这个年纪开始，慢慢地开始了解这一纯正的西方语言，时间带来的熏陶不言而喻
 { .annotate }
@@ -6,9 +6,9 @@
 1.  - [小钟Johnny](https://space.bilibili.com/528461028)
     - [卢格杜努姆的奥古斯丁](https://space.bilibili.com/1346921)
 
-## From Scratch
+## **From Scratch**
 
-### 1. Greetings and Basic Phrases 
+### **1. Greetings and Basic Phrases**
 
 **打招呼的基本词**
 
@@ -86,11 +86,11 @@
     
     **A: Nous allons en Chine.** - We are going to China.
 
-有意思的点是英语中的 *you* 恰好没办法区分法语中这两种表达的区别，因为英语第二人称根本不分单复数
+有意思的是英语中的 *you* 恰好没办法区分法语中这两种表达的区别，因为英语第二人称根本不分单复数
 
 法语中的`tu`为第二人称单数，并表明这个人是你熟悉的, 而`vous`表示正式(或尊敬)的第二人称(不分单复数)
 
-### 3. Tell the Time
+### **2. Tell the Time**
 
 Quelle heure est-il?
 
@@ -108,7 +108,7 @@ C'est la portable de qui? C'est la portable de Léo.
 
 C'est le stylo de qui? C'est le stylo de Paul.
 
-### 2. Self Introduction
+### **3. Self Introduction**
 
 一般疑问句
 

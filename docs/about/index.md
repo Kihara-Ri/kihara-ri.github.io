@@ -82,6 +82,12 @@ material 主题准备了很多可用的图标和 emoji :smile:
 
 更多查看: [icons&emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-animations-docsstylesheetsextracss)
 
+更多水彩图: [いらすとや](https://www.irasutoya.com/)
+
+<center>
+![いらすとや](https://4.bp.blogspot.com/-2-Ny23XgrF0/Ws69gszw2jI/AAAAAAABLdU/unbzWD_U8foWBwPKWQdGP1vEDoQoYjgZwCLcBGAs/s1600/top_banner.jpg){ width="400" }
+</center>
+
 ## 代码块配置
 
 查看 [code-blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-line-numbers)

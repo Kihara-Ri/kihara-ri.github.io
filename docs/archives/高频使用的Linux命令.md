@@ -47,7 +47,21 @@ ls -1 | wc -l
 
 `ls -1`命令将每个文件按行列出，然后使用`wc -l`计数行数
 
-## 正则表达式匹配
+## grep 命令活用
+
+`grep`命令的含义为: **global regular expression print**[^1]
+
+[^1]: 来源: [Using Grep & Regular Expressions to Search for Text Patterns in Linux](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)
+
+忽略大小写 (case) : `-i`/`--ignore-case`
+
+反向匹配 match lines that **DO NOT** contain a specified pattern: `-v`/`--invert-match`
+
+添加匹配出现的行数: `-n`/`--line-number`
+
+
+
+### 正则表达式匹配
 
 对于正则表达式匹配，我们可以使用`grep`命令加上`-E`参数，这个命令的功能非常强大
 

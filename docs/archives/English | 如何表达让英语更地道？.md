@@ -382,4 +382,6 @@ An attempt to turn public opinion against someone/something through the appearan
 
 ---
 
+**cheap shot** --> **偷袭**, an act of deliberate roughness against a defenseless opponent especially in a contact sport.
 
+---

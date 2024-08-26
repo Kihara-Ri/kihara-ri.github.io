@@ -8,6 +8,8 @@
 
 <!-- more -->
 
+我的 [neovim 配置仓库](https://github.com/Kihara-Ri/neovim-lua-config)
+
 ## 进阶快捷键操作
 
 - ++shift+a++ 在行尾添加, 与 ++shift+4++ 不同的是前者会跳转到 INSERT MODE, 而后者不会 
@@ -58,16 +60,231 @@
 
 ---
 
-## 配置neovim
+## 使用 neovim
+
+### 安装 neovim
 
 neovim 支持非常多的插件, 它能将你的vim编辑器打造得甚至比IDE的功能更加强大, 但是配置起来也很麻烦, 这里为了个性化的使用, 我适当进行了一些配置, 让它用起来感觉相当不错, 足以进行各个文件的代码编辑
+
+最便捷的方法是使用包管理器安装 neovim
 
 ``` shell
 sudo apt install neovim
 ```
 
+但是这种方法有一个问题, 就是如果你的系统包管理器不是最新的, 或者包管理器没有获得足够新的 neovim 版本, 在安装其他插件的时候可能会出现一些问题, 如我在安装的时候就出现了版本过低不支持 lazy.nvim 的情况, 它提示我最低要求的版本为 0.8, 而我通过包管理器的方式安装只有 0.7 版本
+
+``` shell
+$ nvim --version
+NVIM v0.7.2
+Build type: Release
+Lua 5.1
+Compiled by team+vim@tracker.debian.org
+```
+
+因此, 这里建议自己编译最新版本, 在编译最新版本后, 得到的信息如下:
+
+``` shell
+$ nvim --version
+NVIM v0.10.2-dev-24+g7834d80b8
+Build type: RelWithDebInfo
+LuaJIT 2.1.1713484068
+Run "nvim -V1 -v" for more info
+```
+
+编译方法查看 [链接](https://github.com/neovim/neovim/tree/release-0.10)
+
+安装依赖:
+
+``` shell
+sudo apt-get update
+sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
+```
+
+需要注意的一点:
+
+``` shell
+git clone https://github.com/neovim/neovim.git
+cd neovim
+# 切换到目标分支
+git checkout release-0.10
+```
+
+然后无脑编译就完成了
+
+## 配置 neovim
+
+安装插件 [vim-plug](https://github.com/junegunn/vim-plug?tab=readme-ov-file)
+
+neovim 文件的默认路径为`~/.config/nvim/init.vim`, 因此如果没有这个文件的话需要自己创建, 然后根据指示配置
+
+使用
+
+- `:PlugInstall`安装插件
+- `:PlugUpdate`安装或更新插件
+- `:PlugDiff`查看与上次更新的变化
+- `:PlugClean`移除已经不在插件列表里的插件效果
+
+neovim 采用了模块化的配置策略, 这使得对配置的个性化逻辑更贴近于项目逻辑, 我们使用`Lua`进行配置的引入和编写, 在`nvim`目录下我们需要创建一个`init.lua`文件作为项目的主文件, 之后的所有配置, 我们只需要在这个文件中引入即可
+
+对于核心的配置, 我们放在`/nvim/lua/core/options.lua`下, 在`init.lua`中引用时, 只需要使用
+
+``` lua
+require("core.options")
+```
+
+即可, neovim 会自动以`lua`文件夹为根目录
+
+### neovim 插件
+
+在 neovim 的 [官网](https://dotfyle.com/neovim/plugins/trending) 能查找到各种插件
+
+配置插件的过程极大程度地参考了 [技术蛋老师](https://space.bilibili.com/327247876) 的视频 [【全程讲解】Neovim从零配置成属于你的个人编辑器](https://www.bilibili.com/video/BV1Td4y1578E/)
+
+在这里列出我使用的插件, 详细插件介绍和配置方法放在列表下面, 按顺序安装更好, 因为它更符合我们上手了解的逻辑
+
+- [lualine.nvim](https://dotfyle.com/plugins/nvim-lualine/lualine.nvim)
+- [neo-tree.nvim](https://dotfyle.com/plugins/nvim-neo-tree/neo-tree.nvim)
+
+???+ info "状态栏: lualine.nvim"
+
+    状态栏: 使用 [lualine.nvim](https://dotfyle.com/plugins/nvim-lualine/lualine.nvim)
+
+    在 lazy.nvim 中添加:
+
+    ``` lua
+    {
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    }
+    ```
+
+    图标需要自己额外安装, 所以要安装上面的依赖`nvim-web-devicons`
+
+    有很多现成的可供选择的状态栏, 如:
+
+    <center>![evil_lualine](https://user-images.githubusercontent.com/13149513/113875129-4453ba00-97d8-11eb-8f21-94a9ef565db3.png){ width="800" }</center>
+
+    个性化参考 [Usage and customization](https://github.com/nvim-lualine/lualine.nvim?tab=readme-ov-file#usage-and-customization)
+
+    对于状态栏的配置, 写入`lualine.lua`文件然后在`init.lua`中引用一下即可生效
+
+???+ info "文件树: neo-tree.nvim"
+
+    在终端中使用命令进行文件切换实在太过繁琐, 因此要有好的体验需要像 VSCode 一样有一个文件树, 推荐使用 [neo-tree.nvim](https://dotfyle.com/plugins/nvim-neo-tree/neo-tree.nvim)
+
+    配合 [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) 可以方便地使用键盘进行文件树和编辑器之间的切换
+
+    使用 ++tab++ 展开和关闭文件内容, ++enter++ 或 ++o++ 打开文件并将光标移动到文件内容中, 使用 ++ctrl+hjkl++ 进行文件窗口切换
+
+???+ info "语法高亮: nvim-treesitter"
+    
+    配合 [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) 将不同层级的括号使用不同颜色区分
+
+    创建`treesitter.lua`配置文件添加配置
+
+    ``` lua
+    require'nvim-treesitter.configs'.setup {
+      -- 添加不同语言
+      ensure_installed = { "vim", "vimdoc", "bash", "c", "cpp", "javascript", "json", "lua", "python", "typescript", "tsx", "css", "rust", "markdown", "markdown_inline" }, -- one of "all" or a list of languages
+
+      highlight = { enable = true },
+      indent = { enable = true },
+
+      -- 不同括号颜色区分
+      rainbow = {
+        enable = true,
+        extended_mode = true,
+        max_file_lines = nil,
+      }
+    }
+    ```
+
+???+ info "语法提示: lsp"
+
+    语法提示使用 [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+
+    使用 [mason.nvim](https://github.com/williamboman/mason.nvim) 管理 lsp 服务
+
+    使用`:Mason`进入语言管理界面, 搜索安装其它语言服务可以使用vim中的搜索操作: `/rust`搜索 Rust 语言相关服务, 然后根据前面所说的 ++n++ 进行跳转, 最后使用 ++i++ 安装服务, 安装完成后命令行中会有提示
+
+    ??? warning
+
+        有些服务需要有`npm`或`nodejs`, 因此需要安装一下:
+
+        ``` shell
+        sudo apt-get install nodejs npm
+        ```
+
+???+ info "自动补全: nvim-cmp"
+
+    [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) 是一个编程语言补全插件
+
+???+ info "搜索: telescope"
+
+    这个插件依赖于 [ripgrep](https://github.com/BurntSushi/ripgrep) 运行, 因此需要先安装, 同时建议安装 [fd](https://github.com/sharkdp/fd?tab=readme-ov-file)
+
+    ``` shell
+    sudo apt-get install ripgrep
+    sudo apt install fd-find
+    ```
+
+### 其它功能
+
+#### **执行 shell 命令** 
+
+在 neovim 中也可以执行 shell 命令, 并且有好几种方法
+
+可以使用`:!`作为前缀临时执行命令, 比如
+
+```shell
+:!pwd
+```
+
+neovim 会在底部临时跳出一个小窗口来显示命令结果, 按下回车就会消失
+
+使用`:term`会打开一个终端窗口, 这跟我们在VSCode中的情况类似, 可以使用 ++ctrl+d++ 或`exit`命令退出终端, 更详细地可以使用`:split | term`打开一个水平分割的终端窗口, 使用`:vsplit | term`打开垂直分割的终端窗口, 不过后者我不太常用
+
+你也可以在`keymaps.lua`中规定绑定快捷键:
+
+``` lua
+vim.api.nvim_set_keymap('n', '<leader>t', ':split | term<CR>', { noremap = true, silent = true })
+```
+
+这样就可以按下 `<leader>` + ++t++ 来快速打开终端了
+
+#### **执行代码**
+
+可以通过创建快捷命令的方式执行代码, 以 C, Rust, Python 为例子:
+
+``` lua
+-- gcc 编译并运行 C 代码
+vim.api.nvim_create_user_command('RunC', '!gcc % -o %:r && ./%:r', {})
+-- cargo run
+vim.api.nvim_create_user_command('RunRust', '!cargo run', {})
+-- python3
+vim.api.nvim_create_user_command('RunPython', '!python3 %', {})
+```
+
+!!! tip
+
+    - 命令的首字母必须大写, 只需在 vim 的命令行窗口中输入`:RuncC`就能运行命令
+    - `%`代表当前文件的全名, 包括路径
+    - `%:r`代表当前文件的`root name`, 去掉扩展名, 如`main.c` --> `main`
+
+#### 其它
+
+使用`:help`, 如果你想做一些操作但是忘了怎么做, 活用这个命令
+
+## Docker 打包
+
 
 
 ## References
 
-1. [Vim Tutorial for Beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc&t=42s)
+1. [Vim Tutorial for Beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
+2. [vim-plug](https://junegunn.github.io/vim-plug/)
+3. [【全程讲解】Neovim从零配置成属于你的个人编辑器](https://www.bilibili.com/video/BV1Td4y1578E/)
+4. [Neovim插件管理Packer转Lazy](https://www.bilibili.com/read/cv24014511/)
+5. [【全程讲解】Neovim从零配置成属于你的个人编辑器](https://www.bilibili.com/video/BV1Td4y1578E/) 
+6. [Neovim-Configuration-Tutorial](https://github.com/eggtoopain/Neovim-Configuration-Tutorial)

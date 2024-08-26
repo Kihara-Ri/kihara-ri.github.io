@@ -14,6 +14,8 @@
 ## cheatsheets
 
 [**Rico's cheatsheets**](https://devhints.io/): 有很多命令的cheatsheets, 包括`grep, mysql, tmux, bash, vim`等等
+
+[hack nerd fonts cheatsheet](https://www.nerdfonts.com/cheat-sheet) --> 图标和各种编程字体
 ## 有趣网站
 
 - [How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html)

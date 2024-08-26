@@ -339,7 +339,7 @@ if __name__ == "__main__":
 
 然后我们读取文件数据, 就可以用`matplotlib`画出图像, 当然输出的png格式图片只能在有图形界面的机器上查看, 对于没有图形界面的情况, `gnuplot`提供了在终端中使用字符串绘制粗略图像的功能
 
-=== Python
+=== "Python"
 
     ``` py linenums="1"
     import matplotlib.pyplot as plt
@@ -378,7 +378,7 @@ if __name__ == "__main__":
     plt.savefig("cpu_mem_usage.png")
     ```
 
-=== Shell
+=== "Shell"
 
     ``` shell
     gnuplot -p -e "

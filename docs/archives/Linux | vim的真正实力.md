@@ -114,16 +114,7 @@ git checkout release-0.10
 
 ## 配置 neovim
 
-安装插件 [vim-plug](https://github.com/junegunn/vim-plug?tab=readme-ov-file)
-
 neovim 文件的默认路径为`~/.config/nvim/init.vim`, 因此如果没有这个文件的话需要自己创建, 然后根据指示配置
-
-使用
-
-- `:PlugInstall`安装插件
-- `:PlugUpdate`安装或更新插件
-- `:PlugDiff`查看与上次更新的变化
-- `:PlugClean`移除已经不在插件列表里的插件效果
 
 neovim 采用了模块化的配置策略, 这使得对配置的个性化逻辑更贴近于项目逻辑, 我们使用`Lua`进行配置的引入和编写, 在`nvim`目录下我们需要创建一个`init.lua`文件作为项目的主文件, 之后的所有配置, 我们只需要在这个文件中引入即可
 
@@ -135,7 +126,41 @@ require("core.options")
 
 即可, neovim 会自动以`lua`文件夹为根目录
 
+在配置 neovim 的时候, 我们最好要时刻记住 neovim 的模块化配置思路, 不要一股脑地把各种引用和函数实现都堆在一个文件里
+
+推荐先学习一下 [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) 来了解 neovim 项目轮廓, 方便以后我们自己的扩展
+
+??? info "kickstart.txt"
+
+    [kickstart.txt](https://github.com/nvim-lua/kickstart.nvim/blob/master/doc/kickstart.txt)
+
+    ================================================================================
+    INTRODUCTION                                                  *kickstart.nvim*
+
+    Kickstart.nvim is a project to help you get started on your neovim journey.
+
+                                                            *kickstart-is-not*
+
+    It is not:
+    - Complete framework for every plugin under the sun
+    - Place to add every plugin that could ever be useful
+
+                                                                *kickstart-is*
+    It is:
+    - Somewhere that has a good start for the most common "IDE" type features:
+        - autocompletion
+        - goto-definition
+        - find references
+        - fuzzy finding
+        - and hinting at what more can be done :)
+    - A place to _kickstart_ your journey.
+        - You should fork this project and use/modify it so that it matches your style and preferences. If you don't want to do that, there are probably other projects that would fit much better for you (and that's great!)!
+
+    vim:tw=78:ts=8:ft=help:norl:
+
 ### neovim 插件
+
+首先我们需要选用一个插件管理器, 目前有很多插件管理器如 [vim-plug](https://github.com/junegunn/vim-plug), [lazy.nvim](https://github.com/folke/lazy.nvim), [packer.nvim](https://github.com/wbthomason/packer.nvim) 等
 
 在 neovim 的 [官网](https://dotfyle.com/neovim/plugins/trending) 能查找到各种插件
 
@@ -200,7 +225,9 @@ require("core.options")
     }
     ```
 
-???+ info "语法提示: lsp"
+???+ info "代码补全诊断: lsp"
+
+    `lsp`的全称为 language server protocol, 可以让 Language Server 与编辑器相互沟通, 从而为代码提供补全、诊断、Code Action 等接近完整 IDE 的功能
 
     语法提示使用 [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 
@@ -276,7 +303,9 @@ vim.api.nvim_create_user_command('RunPython', '!python3 %', {})
 
 使用`:help`, 如果你想做一些操作但是忘了怎么做, 活用这个命令
 
-## Docker 打包
+## 打包
+
+我们前面花了大功夫配置了一大堆, 但是目前它只能在一台机器上使用, 如果我们同时使用多台 Linux 服务器的话这未免让配置过于繁琐, 为了使 neovim 的配置文件能够轻松复制到其他机器上, 我们最好还是编辑一个安装脚本, 并且使用 Docker 作为容器也许是一个不错的选择
 
 
 

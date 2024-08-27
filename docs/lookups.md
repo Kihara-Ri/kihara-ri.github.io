@@ -11,6 +11,10 @@
 - [LaTeX常用表达式](./blog/posts/LaTeX常用表达式.md)
 - [LaTeX Tables Editor](https://www.latex-tables.com/)
 
+## 编程手册
+
+- [shell command language introduction](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_01_01)
+
 ## cheatsheets
 
 [**Rico's cheatsheets**](https://devhints.io/): 有很多命令的cheatsheets, 包括`grep, mysql, tmux, bash, vim`等等

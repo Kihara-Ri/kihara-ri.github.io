@@ -385,3 +385,13 @@ An attempt to turn public opinion against someone/something through the appearan
 **cheap shot** --> **偷袭**, an act of deliberate roughness against a defenseless opponent especially in a contact sport.
 
 ---
+
+**nugget** --> 用来描述一些天然形成的珍贵金属块, 比如你玩 Minecraft 时用铁锭分解成的 iron nugget
+
+![iron_nugget](https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ea/Iron_Nugget_JE1_BE1.png/revision/latest?cb=20200130102745){ width="200" }
+
+或者切成的肉块 nuggets of meat, 最常用的则是鸡块 chicken nugget
+
+![chicken_nugget](https://upload.wikimedia.org/wikipedia/commons/6/64/Chicken_Nuggets.jpg){ width="200" }
+
+---

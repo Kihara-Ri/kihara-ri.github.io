@@ -1,3 +1,7 @@
+---
+icon: material/account-box-outline
+---
+
 # About the site
 
 如你所见，这是一个使用[MkDocs](https://www.mkdocs.org/)搭建的Blog网站，并且使用了[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)作为主题，绝大部分的配置都可以通过查看上面的链接解决，但是我在这里想要强调的是一些**需要注意**和**特别有用**的项，这些是在你面对内容庞大详实的文档时，容易变得不耐烦而忽略的点

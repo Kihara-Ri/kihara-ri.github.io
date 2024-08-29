@@ -1,3 +1,6 @@
+---
+icon: my-projects
+---
 # **Projects**
 
 ## :my-orange-point: **个人词典项目**

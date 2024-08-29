@@ -1,3 +1,7 @@
+---
+icon: material/home
+---
+
 # **任务栏**
 
 今のあなたにはやるべきことがたくさんありますが...
@@ -18,7 +22,6 @@
 - [ ] 做一个计划时间轴, 使用python渲染工具以图片的形式更新, 这个任务和 GitHub 主页美化共同完成
 - [ ] [Godot](https://docs.godotengine.org/en/stable/index.html)
 - [ ] 写一个LaTeX模版，并手动编译
-- [ ] 使用绿点来表示已完全完成的文章，黄点表示大致已完成但是还可与其他部分扩展和一些进一步的实现，红色表示仍在探索的部分
 - [ ] **一项新的任务: 将MC贴图增加至本网站**
 - [ ] [大学法语：法语语法基础-南京大学(精品课)](https://www.bilibili.com/video/BV1eT411777z/?p=3&spm_id_from=333.880.my_history.page.click&vd_source=abed696091cea364eece1cf5cb2e843d)
 - [ ] [生化危机3](https://www.bilibili.com/video/BV1z54y1R7Qx?p=9&spm_id_from=pageDriver&vd_source=abed696091cea364eece1cf5cb2e843d)
@@ -35,3 +38,4 @@
 
 ## 过去已经完成的较有意义的事情在这里
 
+- [x] 使用绿点来表示已完全完成的文章，黄点表示大致已完成但是还可与其他部分扩展和一些进一步的实现，红色表示仍在探索的部分 time: 2024-8-29

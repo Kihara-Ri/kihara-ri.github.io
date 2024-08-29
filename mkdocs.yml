@@ -25,9 +25,9 @@ nav:
   - About:
     - about/index.md
     - 'about/about me.md'
-    - projects.md
-    - musings.md
-    - curriculums.md
+    - about/projects.md
+    - about/musings.md
+    - about/curriculums.md
   - Blog:
     - blog/index.md
   # Archives 项会经常添加文章，因此希望能够自动添加 ./docs/blog/posts 中的文章，减少麻烦和错误
@@ -43,9 +43,10 @@ nav:
     - '한국어 | 韩语入门': 'archives/한국어 | 韩语入门.md'
     - 'Minecraft | 生电指南': 'archives/Minecraft | 生电指南.md'
   - Info:
-    - lookups.md
-    - books.md
-    - bangumis.md
+    - info/index.md
+    - info/lookups.md
+    - info/books.md
+    - info/bangumis.md
 #-----------------------------------------------------------------
 theme:
   name: material

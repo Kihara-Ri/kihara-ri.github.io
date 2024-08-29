@@ -200,7 +200,10 @@ markdown_extensions:
       # slugify: !!python/object/apply:pymdownx.slugs.slugify # 可读的锚链接 内容选项卡 不是很好用
       # kwds:
       # case: lower
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      # auto_append:
+      #   - includes/abbreviations.md # 通过添加文件来配置简单的术语表
+      # https://squidfunk.github.io/mkdocs-material/reference/tooltips/#adding-a-glossary
   - pymdownx.superfences
   - abbr
   - admonition # 警告标注

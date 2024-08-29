@@ -68,6 +68,8 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
     annotation: material/arrow-right-circle # 注释图标
+    # 在这里定义自定义图标的快捷使用
+    logo: my/green-point
   # 主题颜色
   palette:
     # 下面的 primary 和 accent 会和 media 相冲突
@@ -212,6 +214,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons: # 在这里添加自定义emoji
+          - overrides/.icons
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys # 使用++包裹显示按键图标

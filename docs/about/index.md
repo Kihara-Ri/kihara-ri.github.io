@@ -1,6 +1,6 @@
 # About the site
 
-如你所见，这是一个使用[MkDocs](https://www.mkdocs.org/)搭建的Blog网站，并且使用了[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)作为主题，绝大部分的配置都可以通过查看上面的链接解决，但是我在这里想要强调的是一些需要注意的和有用的项，这些是在你面对内容庞大详实的文档时，容易变得不耐烦而忽略的点
+如你所见，这是一个使用[MkDocs](https://www.mkdocs.org/)搭建的Blog网站，并且使用了[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)作为主题，绝大部分的配置都可以通过查看上面的链接解决，但是我在这里想要强调的是一些**需要注意**和**特别有用**的项，这些是在你面对内容庞大详实的文档时，容易变得不耐烦而忽略的点
 
 ## 配置文件
 
@@ -80,7 +80,19 @@ tags:
 
 material 主题准备了很多可用的图标和 emoji :smile:
 
-更多查看: [icons&emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-animations-docsstylesheetsextracss)
+更多查看: :material-material-ui: [Material: Icons, Emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-animations-docsstylesheetsextracss), 提供 :octicons-search-16: 搜索 :octicons-copy-16: 复制功能, 并且说明了如何用css给纯色图标加颜色和动效
+
+自定义添加图标并设置快捷引用方式查看: [Material: Changing the logo and icons](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#additional-icons)
+
+这里我在`mkdocs.yml`文件同级目录下创建了`overrides`并添加`.icons`文件夹, 在这个文件夹里添加我们想要自定义添加图标, 以文件夹的形式分类存储, 我自己创建的图标, 我将其保存在了`my`文件夹下
+
+:bootstrap-book:
+
+:my-green-point:
+
+:my-orange-point:
+
+:my-red-point:
 
 更多水彩图:
 
@@ -89,6 +101,12 @@ material 主题准备了很多可用的图标和 emoji :smile:
 
 [**いらすとや**](https://www.irasutoya.com/)
 </center>
+
+## 告示 Admonitions
+
+Admonitions 像一个小牌子, 用来提示读者一些不同属性的信息, 如警告, 错误, 更多信息, 小 tips 等, 因为它有着各种不同种类的提示, 并且支持自定义提示, 所以我倾向于叫它**告示**而不是**警示**
+
+详细使用方法查看: [Material: admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=admonitions)
 
 ## 代码块配置
 

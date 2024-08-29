@@ -1,6 +1,7 @@
 ---
 title: Linux | 系统文件
 date: 2024-08-21
+icon: simple/linux
 tags:
   - Linux
 categories:

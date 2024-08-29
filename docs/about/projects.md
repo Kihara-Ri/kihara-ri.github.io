@@ -1,5 +1,5 @@
 ---
-icon: my-projects
+icon: my/projects
 ---
 # **Projects**
 

@@ -69,7 +69,8 @@ theme:
       quote: octicons/quote-16
     annotation: material/arrow-right-circle # 注释图标
     # 在这里定义自定义图标的快捷使用
-    logo: my/green-point
+    logo: 
+      - my/green-point
   # 主题颜色
   palette:
     # 下面的 primary 和 accent 会和 media 相冲突

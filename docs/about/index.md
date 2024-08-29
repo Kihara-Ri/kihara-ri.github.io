@@ -84,15 +84,13 @@ material 主题准备了很多可用的图标和 emoji :smile:
 
 自定义添加图标并设置快捷引用方式查看: [Material: Changing the logo and icons](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#additional-icons)
 
-这里我在`mkdocs.yml`文件同级目录下创建了`overrides`并添加`.icons`文件夹, 在这个文件夹里添加我们想要自定义添加图标, 以文件夹的形式分类存储, 我自己创建的图标, 我将其保存在了`my`文件夹下
+这里我在`mkdocs.yml`文件同级目录下创建了`overrides`并添加`.icons`文件夹, 在这个文件夹里添加我们想要自定义添加图标, 以文件夹的形式分类存储, 我自己创建的图标, 我将其保存在了`my`文件夹下, 并且使用下面示例的图标来表示文章的状态:
 
-:bootstrap-book:
+:my-green-point: :`my-green-point` 用于表示完成度较高或已经完结的文章, 后续不太可能进行大的修改, 即使进行修改也只是一些小修小补, 更新与别的文章的连接
 
-:my-green-point:
+:my-orange-point: :`my-orangepi-point` 用于表示目前正在做的, 并且已经对于全局有所认识的文章, 很快就能补全内容
 
-:my-orange-point:
-
-:my-red-point:
+:my-red-point: :`my-red-point` 用于表示完全全新的领域, 不知道进行下去会是什么结果的内容
 
 更多水彩图:
 

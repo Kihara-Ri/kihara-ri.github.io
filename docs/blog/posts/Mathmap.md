@@ -12,7 +12,7 @@ categories:
   - Math
 ---
 
-# Mathmap Plan(未完成)
+# 🔴 Mathmap Plan
 
 If you want to build a math world, what would you start with ?
 

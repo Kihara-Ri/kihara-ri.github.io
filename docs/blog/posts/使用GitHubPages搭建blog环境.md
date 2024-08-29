@@ -7,7 +7,7 @@ tags:
 categories: 
   - Log
 ---
-# 使用GitHub Pages搭建blog环境
+# 🟠 使用GitHub Pages搭建blog环境
 
 使用Hexo模版，借助GitHub Pages快速搭建一个Blog网站
 

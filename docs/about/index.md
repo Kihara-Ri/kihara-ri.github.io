@@ -88,11 +88,11 @@ material 主题准备了很多可用的图标和 emoji :smile:
 
 测试: 
 
-:my-green-point: :`my-green-point` 用于表示完成度较高或已经完结的文章, 后续不太可能进行大的修改, 即使进行修改也只是一些小修小补, 更新与别的文章的连接
+:my-green-point: `:my-green-point:` 用于表示完成度较高或已经完结的文章, 后续不太可能进行大的修改, 即使进行修改也只是一些小修小补, 更新与别的文章的连接
 
-:my-orange-point: :`my-orangepi-point` 用于表示目前正在做的, 并且已经对于全局有所认识的文章, 很快就能补全内容
+:my-orange-point: `:my-orangepi-point:` 用于表示目前正在做的, 并且已经对于全局有所认识的文章, 很快就能补全内容
 
-:my-red-point: :`my-red-point` 用于表示完全全新的领域, 不知道进行下去会是什么结果的内容
+:my-red-point: `:my-red-point:` 用于表示完全全新的领域, 不知道进行下去会是什么结果的内容
 
 更多水彩图:
 
@@ -101,6 +101,13 @@ material 主题准备了很多可用的图标和 emoji :smile:
 
 [**いらすとや**](https://www.irasutoya.com/)
 </center>
+
+当然, 现在的 unicode 字符也已经包含了非常多好用的 emoji, 你可以快速地查询想要使用的字符的 unicode 编号或是它的 HTML Entity, 以 🟢`Green Circle`为例:
+
+1. [Emojipedia](https://emojipedia.org/)
+2. [Compart: Unicode](https://www.compart.com/en/unicode/)
+
+在 Markdown 中我们就可以直接使用它的 HTML 表示法: &#x1F7E2;`&#x1F7E2;`一样得到了结果
 
 ## 告示 Admonitions
 

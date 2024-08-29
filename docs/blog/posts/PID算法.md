@@ -9,7 +9,7 @@ categories:
   - CS
 ---
 
-# PID 算法
+# 🟠 PID 算法
 
 $PID$(*Proportional integration differentiation*)算法是一种应用非常广泛的控制算法，$PID$是一种闭环的控制算法，输入会收到输出的影响，让输出不断接近设定的期望值
 

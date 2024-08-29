@@ -8,7 +8,7 @@ categories:
   - Math
 ---
 
-# Logistic 方程与混沌
+# 🟠 Logistic 方程与混沌
 
 重新认识一下 Logistic 方程，发掘其与混沌理论及其他领域的联系
 

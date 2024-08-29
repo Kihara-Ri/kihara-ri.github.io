@@ -9,7 +9,7 @@ tags:
 categories: 
   - Log
 ---
-# NAS折腾日志
+# 🟠 NAS折腾日志
 
 树莓派放在家里一直吃灰，刚好又不怎么想玩游戏，xss上的希捷2T移动硬盘直接拿下来做存储，树莓派刷`openmediavault`当云盘
 

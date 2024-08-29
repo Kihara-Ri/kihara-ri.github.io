@@ -216,7 +216,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
-        custom_icons: # 在这里添加自定义emoji
+        custom_icons: 
+        # 在这里添加自定义emoji, 这里添加了 .icons 以后可以直接以 :<folder>-<file>: 的形式使用
+        # 不需要添加扩展名 .svg 就可以正常识别
           - overrides/.icons
   - pymdownx.highlight
   - pymdownx.inlinehilite

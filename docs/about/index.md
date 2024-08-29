@@ -86,7 +86,7 @@ material 主题准备了很多可用的图标和 emoji :smile:
 
 这里我在`mkdocs.yml`文件同级目录下创建了`overrides`并添加`.icons`文件夹, 在这个文件夹里添加我们想要自定义添加图标, 以文件夹的形式分类存储, 我自己创建的图标, 我将其保存在了`my`文件夹下, 并且使用下面示例的图标来表示文章的状态:
 
-测试: <svg t="1724923287037" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13811" width="16" height="16"><path d="M512 512m-204.8 0a204.8 204.8 0 1 0 409.6 0 204.8 204.8 0 1 0-409.6 0Z" fill="#E45E32" p-id="13812"></path></svg>
+测试: <svg t="1724924825013" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5134" width="200" height="200"><path d="M512 512m-358.4 0a358.4 358.4 0 1 0 716.8 0 358.4 358.4 0 1 0-716.8 0Z" fill="#F1483F" p-id="5135"></path></svg>
 
 :my-green-point: :`my-green-point` 用于表示完成度较高或已经完结的文章, 后续不太可能进行大的修改, 即使进行修改也只是一些小修小补, 更新与别的文章的连接
 

@@ -26,6 +26,10 @@
 - [Oggi.jp おしゃれもキャリアも。働く女性のWebメディア](https://oggi.jp/)
 - [神秘的程序员们——中文首部以技术文化和程序员为主题的漫画](https://code2048.com/)<center>![the_best_editor](./assets/the_best_editor.png){ width="300" }</center>
 
+### Galgame 资源
+
+- [失落の小站](https://www.shinnku.com/)
+
 ## 实用网站
 
 ### 类百科

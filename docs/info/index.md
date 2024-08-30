@@ -2,4 +2,4 @@
 icon: octicons/info-16
 ---
 
-# :octicons/info-16: info
+# :octicons-info-16: info

@@ -2,6 +2,10 @@
 
 这篇文章是对 :link:[About the site](../about/index.md) 的扩展, 包含了
 
+<span class="twemoji">
+  {% include ".icons/fontawesome/brands/youtube.svg" %} 
+</span>
+
 ## 写在前面
 
 我们在浏览网站的时候，会发现别人写的Markdown文档为什么这么好看，有各种各样的效果和图案，为什么我的就没有？我连字体大小颜色都还没玩明白，别人是怎么在文章里插入这么多图标的？

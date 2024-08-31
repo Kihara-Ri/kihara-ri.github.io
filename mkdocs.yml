@@ -124,6 +124,7 @@ theme:
 #-----------------------------------------------------------------
 
 extra_javascript:
+  - javascripts/png-icon.js
   - javascripts/icon-import.js
   - javascripts/shortcuts.js
   - javascripts/katex.js

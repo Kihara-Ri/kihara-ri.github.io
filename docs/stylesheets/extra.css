@@ -3,7 +3,7 @@
   --md-primary-fg-color--light: #bb75d9;
   --md-primary-fg-color--dark: #7c518f;
 }
-/*在这里修改页面宽度 */
+/* 在这里修改页面宽度 */
 .md-grid {
   max-width: 1600px;
 }

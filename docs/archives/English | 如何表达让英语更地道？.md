@@ -1,6 +1,6 @@
 # 如何表达让英语更地道？
 
-以下的所有收集均来自于笔者在教科书、考试与课外书籍之外的真实的欧美人日常使用的表达, 对于较为正式的表达收录较少, 更多聚焦于口语化表达和一些 [memes](https://www.wikiwand.com/en/meme).
+以下的所有收集均来自于笔者在教科书、考试与课外书籍之外的真实的欧美人日常使用的表达或俚语, 对于较为正式的表达收录较少, 更多聚焦于口语化表达和一些 [memes](https://www.wikiwand.com/en/meme).
 
 ---
 
@@ -388,10 +388,41 @@ An attempt to turn public opinion against someone/something through the appearan
 
 **nugget** --> 用来描述一些天然形成的珍贵金属块, 比如你玩 Minecraft 时用铁锭分解成的 iron nugget
 
-![iron_nugget](https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ea/Iron_Nugget_JE1_BE1.png/revision/latest?cb=20200130102745){ width="200" }
+==这里加一张在mc里面的截图==
+![iron_nugget](){ width="200" }
 
 或者切成的肉块 nuggets of meat, 最常用的则是鸡块 chicken nugget
 
 ![chicken_nugget](https://upload.wikimedia.org/wikipedia/commons/6/64/Chicken_Nuggets.jpg){ width="200" }
+
+---
+
+**cook** --> 这个词很常用, 但是意思经常不是我们所理解的*烹饪*
+
+**I'm cooked** --> 作为网络用语, 最基本的意思是 *I'm in trouble*, 但更贴切地说它的意思就是 **我寄了**, 比如
+
+> I forgot to study for this exam. I'm so cooked.
+>
+> 我忘记复习了, 这下寄了.
+
+是不是很贴切? 通常用来表达一些事情脱离自己的掌控, 并且会导致坏的结果(1)
+{ .annotate }
+
+1. 来源: [What Does I'm Cooked Mean? TikTok Slang, Explained](https://www.wikihow.com/What-Does-I%27m-Cooked-Mean)
+
+**cooking** 
+
+--> *Now you're cooking* 指的是事情突然改善了, 变得更有效率了(1). 我们可以在学习了一些新的工具和知识后这样说来表达工作或学习效率的提升
+{ .annotate }
+
+1. 来源: [:Reddit: Slang meaning of "cooking" and it's connotations](https://www.reddit.com/r/ENGLISH/comments/10e6mdo/slang_meaning_of_cooking_and_its_connotations/)
+
+--> *I'm still cooking* 意为 *还没做完* , 或者还在思考, 如 *I'm cooking up sth.* 就可以表示正在计划某些事或想法还是什么特别的事情
+
+总之, **cook** 这个词所能表达的意思远非我们所狭义理解的烹饪, 作为一个高频出现的词, 我们需要尽可能地往更抽象化的方向去理解这些词, 而不仅仅是它的表面含义
+
+---
+
+**on good terms** --> 用来表达和朋友之间关系很好, 没有矛盾吵架之类的事
 
 ---

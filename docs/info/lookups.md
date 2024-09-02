@@ -2,6 +2,12 @@
 
 互联网上在各方面总是充斥着大量的信息，但未经审视的信息于我们而言则是劣质的，因为需要额外花费时间寻找并判断，因此对于一些经常使用的功能，我将网站整合在了下面
 
+## :my-download:下载工具
+
+[:my-github: Hitomi-Downloader](https://github.com/KurtBestor/Hitomi-Downloader) --> 基本上可以下载网络上所有的音视频图片, 包括检查登录状况和 cookies 的
+
+:simple-googletasks: 递归`ls`命令, 以及`find`命令正则表达式的书写
+
 ## 🔍数学问题搜索
 
 - [Approache Zero](https://approach0.xyz/search/)

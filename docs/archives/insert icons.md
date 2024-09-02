@@ -1,10 +1,6 @@
 # 在网页中插入图标
 
-这篇文章是对 :link:[About the site](../about/index.md) 的扩展, 包含了
-
-<span class="twemoji">
-  {% include ".icons/fontawesome/brands/youtube.svg" %} 
-</span>
+这篇文章是对 [:link:About the site](../about/index.md) 的扩展, 包含了
 
 ## 写在前面
 

@@ -86,6 +86,8 @@ material 主题准备了很多可用的图标和 emoji :smile:
 
 更多查看: :material-material-ui: [Material: Icons, Emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-animations-docsstylesheetsextracss), 提供 :octicons-search-16: 搜索 :octicons-copy-16: 复制功能, 并且说明了如何用css给纯色图标加颜色和动效
 
+:my-heart:{ .heart }
+
 自定义添加图标并设置快捷引用方式查看: [Material: Changing the logo and icons](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#additional-icons)
 
 这里我在`mkdocs.yml`文件同级目录下创建了`overrides`并添加`.icons`文件夹, 在这个文件夹里添加我们想要自定义添加图标, 以文件夹的形式分类存储, 我自己创建的图标, 我将其保存在了`my`文件夹下, 并且使用下面示例的图标来表示文章的状态:

@@ -112,45 +112,6 @@
 
 在声明了`<head>`之后，直接在文件里使用`<svg>`标签就可以正常使用
 
-| Icons | Labels |
-| ----- | ---- |
-|  <svg class="icon-large" ><use xlink:href="#icon-youtube"></use></svg>     |  `<svg class="icon-large" ><use xlink:href="#icon-youtube"></use></svg>`    |
-|  <svg class="icon-large" ><use xlink:href="#icon-JavaScript"></use></svg>     |  `<svg class="icon-large" ><use xlink:href="#icon-JavaScript"></use></svg>`      |
-|   <svg class="icon-large" ><use xlink:href="#icon-lianjie"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-lianjie"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-wuxianwangluo"></use></svg>    |   `<svg class="icon-large" ><use xlink:href="#icon-wuxianwangluo"></use></svg>`   |
-|   <svg class="icon-large" ><use xlink:href="#icon-meiyuan3"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-meiyuan3"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-cuowu"></use></svg>    | `<svg class="icon-large" ><use xlink:href="#icon-cuowu"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-cuowu1"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-cuowu1"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-wangluo"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-wangluo"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-us"></use></svg>    |   `<svg class="icon-large" ><use xlink:href="#icon-us"></use></svg>`   |
-|   <svg class="icon-large" ><use xlink:href="#icon-dagou"></use></svg>    | `<svg class="icon-large" ><use xlink:href="#icon-dagou"></use></svg>`      |
-|   <svg class="icon-large" ><use xlink:href="#icon-cuowu2"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-cuowu2"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-zhuye"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-zhuye"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-jisuanqi"></use></svg>    |   `<svg class="icon-large" ><use xlink:href="#icon-jisuanqi"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-heart-fill"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-heart-fill"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-riben"></use></svg>    | `<svg class="icon-large" ><use xlink:href="#icon-riben"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-dollar"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-dollar"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-shequ"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-shequ"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-bianchengyuyan"></use></svg>   |  `<svg class="icon-large" ><use xlink:href="#icon-bianchengyuyan"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-dagou1"></use></svg>    |   `<svg class="icon-large" ><use xlink:href="#icon-dagou1"></use></svg>`   |
-|   <svg class="icon-large" ><use xlink:href="#icon-star"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-star"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-bianchengyuyan1"></use></svg>    | `<svg class="icon-large" ><use xlink:href="#icon-bianchengyuyan1"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-china"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-china"></use></svg>`   |
-|   <svg class="icon-large" ><use xlink:href="#icon-info-fill"></use></svg>    |   `<svg class="icon-large" ><use xlink:href="#icon-info-fill"></use></svg>`   |
-|   <svg class="icon-large" ><use xlink:href="#icon-blog"></use></svg>    |   `<svg class="icon-large" ><use xlink:href="#icon-blog"></use></svg>`   |
-|   <svg class="icon-large" ><use xlink:href="#icon-ChatGPT"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-ChatGPT"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-ChatGPT-copy"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-ChatGPT-copy"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-github"></use></svg>    | `<svg class="icon-large" ><use xlink:href="#icon-github"></use></svg>`      |
-|   <svg class="icon-large" ><use xlink:href="#icon-cpp"></use></svg>    | `<svg class="icon-large" ><use xlink:href="#icon-cpp"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-rust"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-rust"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-Python"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-Python"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-bilibili"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-bilibili"></use></svg>`     |
-|   <svg class="icon-large" ><use xlink:href="#icon-zhihu"></use></svg>    |  `<svg class="icon-large" ><use xlink:href="#icon-zhihu"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-curriculum"></use></svg>   |  `<svg class="icon-large" ><use xlink:href="#icon-curriculum"></use></svg>`    |
-|   <svg class="icon-large" ><use xlink:href="#icon-download"></use></svg>  | `<svg class="icon-large" ><use xlink:href="#icon-download"></use></svg>` |
-|   <svg class="icon-large" ><use xlink:href="#icon-weixin"></use></svg>  | `<svg class="icon-large" ><use xlink:href="#icon-weixin"></use></svg>`   |
-
-
 当然，也可以采用**内联样式**
 ```html
 <svg class="icon" style="width: 5em; height: 5em;"><use xlink:href="#icon-bilibili"></use></svg>

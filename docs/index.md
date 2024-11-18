@@ -17,6 +17,8 @@ icon: material/home
 > - データ構造とアルゴリズム
 > - プログラミング
 
+香农论文: :my-paper: [A Mathrmatical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
+
 ## **支线任务**
 
 - [ ] 做一个计划时间轴, 使用python渲染工具以图片的形式更新, 这个任务和 GitHub 主页美化共同完成

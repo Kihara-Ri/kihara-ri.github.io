@@ -1,0 +1,30 @@
+:root {
+  --md-primary-fg-color: #b776c4;
+  --md-primary-fg-color--light: #bb75d9;
+  --md-primary-fg-color--dark: #7c518f;
+}
+/* 在这里修改页面宽度 */
+.md-grid {
+  max-width: 1600px;
+}
+
+.orange {
+  color: #e39427;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+@keyframes heart {
+  0%, 40%, 80%, 100% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.15);
+  }
+}
+.heart {
+  animation: heart 1000ms infinite;
+}

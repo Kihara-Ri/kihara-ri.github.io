@@ -425,4 +425,45 @@ An attempt to turn public opinion against someone/something through the appearan
 
 **on good terms** --> 用来表达和朋友之间关系很好, 没有矛盾吵架之类的事
 
+**drive a wedge between someone** --> 挑拨离间, 挖墙脚, 破坏两个人或群体之间的关系, 引起矛盾或冲突. 这个短语其实很形象, 控制一个楔子, 钻入两个本来结合很紧密的物体, 然后把它们分开
+
 ---
+
+**pundit** --> An expert in a particular subject or field who is frequently called upon to give their opinions to the public. 这里的专家更贴合中文互联网中"专家建议"中的专家
+
+---
+
+**butthead** --> A stupid or stubborn person. 在语气上往往带有一定的搞笑和轻蔑的意味, 类似一种低级但不至于太过分的侮辱, 如果要找一个词和它对应,我觉得应该是"憨批"
+
+---
+
+**butcher** --> 我们都知道表层含义就是"屠夫"或"屠宰", 但对于这个词, 我们可以发现它带有一种含义, 就是较为轻易, 随意地处置, 所以可以理解为**糟蹋**或**毁了**. 我之前听到过
+
+I'm butchering the pronunciations. 这种说法, 出现的场景是在老外不标准地试图念出中文的时候
+
+---
+
+## 支付
+
+**Invoice 发票**: 一种正式的账单, 用于记录应付的金额以及商品或服务的详细信息, 通常是预付款或延后付款的凭证, 常用与企业间B2B交易
+
+**Receipt 收据**: 或者我们更常叫做**小票**, 包含购买的商品/服务信息, 支付金额, 支付日期等
+
+**Bill 账单**: 一种请求支付款项的文件, 通常适用于**提醒**或**告知**需要支付的金额, 比如餐厅, 酒店, 水电费等日常消费费用通知, 如 Can we get the bill, please?
+
+**Check 账单/支票**: 在美国, 这个词会在餐厅里用作餐后需要支付的账单, 一般情况下指的是支票. Could you bring me the check, please?
+
+---
+
+**Coach seat** --> 经济舱或者高铁的二等座, *coach* 在英语中最初指的是一种有四个轮子的马车, 用来载人进行长途旅行
+
+---
+
+**angler** --> **钓鱼**, 这里特指用于娱乐或体育运动的钓鱼, 而不是获得食物等其他目的, 还是从**ネガポジアングラー**中了解到这个词的哈哈日语果然是我学习英语的好伙伴🤣
+
+**Angling** is a type of fishing that uses a rod, reel, and hook, while fishing is a more general term that can include many different methods and techniques.
+
+在我们我们普通人看来, 我们很容易将一个不了解的较大领域的事情具象为其中非常典型的小范围行为, 正如这里的**fishing**, 我们很容易将这一活动全部用钓鱼来代替, 实际上指的是整个捕鱼活动
+
+---
+

@@ -21,12 +21,15 @@ icon: material/home
 
 ## **支线任务**
 
+- [ ] 写一个脚本记录我的服务器各个端口被哪些地区ip扫描访问过多少次, 看一看互联网的暗潮涌动
+- [ ] 使用C写一个tcp通信协议, 学习巩固C并了解网络通信
+- [ ] 添加`美国四百年`图书笔记
+- [ ] Minecraft 已做工作整理, 正在做, 以及计划做, 算是我对最近这三个月高强度玩MC的阶段性总结, 游戏不能白玩了
 - [ ] 做一个计划时间轴, 使用python渲染工具以图片的形式更新, 这个任务和 GitHub 主页美化共同完成
 - [ ] [Godot](https://docs.godotengine.org/en/stable/index.html)
 - [ ] 写一个LaTeX模版，并手动编译
 - [ ] **一项新的任务: 将MC贴图增加至本网站**
 - [ ] [大学法语：法语语法基础-南京大学(精品课)](https://www.bilibili.com/video/BV1eT411777z/?p=3&spm_id_from=333.880.my_history.page.click&vd_source=abed696091cea364eece1cf5cb2e843d)
-- [ ] [生化危机3](https://www.bilibili.com/video/BV1z54y1R7Qx?p=9&spm_id_from=pageDriver&vd_source=abed696091cea364eece1cf5cb2e843d)
 - [ ] 安装并驱动树莓派摄像头 --> [1](https://blog.csdn.net/luteresa/article/details/121351377), [2](https://www.waveshare.net/study/portal.php?mod=view&aid=962)
 - [ ] 完成blog统计脚本
 - [ ] 多项式插值的龙格现象解决方法 --> 切比雪夫滤波器
